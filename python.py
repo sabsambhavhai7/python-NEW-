@@ -34,3 +34,10 @@ print(f"{celsius}°C is {fahrenheit}°F")
 ques 7
 grades = [88, 92, 79, 95, 84]
 print(max(grades))
+
+ques 8 
+import time
+for i in range(5, 0, -1):
+    print(i)
+    time.sleep(1)
+print("Blast off!")
