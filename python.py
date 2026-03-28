@@ -7,3 +7,8 @@ def is_prime(n):
     return True
 
 print(is_prime(29))
+
+ques 2 
+text = "Python Programming"
+reversed_text = text[::-1]
+print(reversed_text)
