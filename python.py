@@ -30,3 +30,7 @@ ques 6
 celsius = 25
 fahrenheit = (celsius * 9/5) + 32
 print(f"{celsius}°C is {fahrenheit}°F")
+
+ques 7
+grades = [88, 92, 79, 95, 84]
+print(max(grades))
