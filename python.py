@@ -12,3 +12,7 @@ ques 2
 text = "Python Programming"
 reversed_text = text[::-1]
 print(reversed_text)
+
+ques 3 
+import random
+print(random.randint(1, 100))
