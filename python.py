@@ -22,6 +22,11 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 evens = list(filter(lambda x: x % 2 == 0, nums))
 print(evens)
 
-ques 4
+ques 5
 student = {"name": "Leo", "age": 22, "major": "CS"}
 print(len(student))
+
+ques 6
+celsius = 25
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C is {fahrenheit}°F")
