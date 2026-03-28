@@ -16,3 +16,8 @@ print(reversed_text)
 ques 3 
 import random
 print(random.randint(1, 100))
+
+ques 4
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+evens = list(filter(lambda x: x % 2 == 0, nums))
+print(evens)
