@@ -47,4 +47,8 @@ word = "radar"
 is_palindrome = word == word[::-1]
 print(f"Is {word} a palindrome? {is_palindrome}")
 
+ques 10
+import math
+num = 64
+print(math.sqrt(num))
 
