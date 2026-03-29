@@ -57,3 +57,9 @@ QUES 1
 items = [1, 2, 2, 3, 4, 4, 4, 5]
 unique_items = list(set(items))
 print(f"Original: {items} | Unique: {unique_items}")
+
+QUES 2
+keys = ["Name", "Age", "City"]
+values = ["Sophia", 28, "Berlin"]
+user_dict = dict(zip(keys, values))
+print(user_dict)
