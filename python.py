@@ -98,3 +98,22 @@ QUES 8
 import os
 file_exists = os.path.isfile("data.csv")
 print(f"Does the file exist? {file_exists}")
+
+QUES 9 
+def simple_decorator(func):
+    def wrapper():
+        print("Function is about to run...")
+        func()
+        print("Function has finished.")
+    return wrapper
+
+@simple_decorator
+def say_hello():
+    print("Hello World!")
+
+say_hello()
+
+QUES 10
+data = [("Apple", 5), ("Banana", 2), ("Orange", 8)]
+data.sort(key=lambda x: x[1])
+print(f"Sorted by quantity: {data}")
