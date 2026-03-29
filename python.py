@@ -88,3 +88,8 @@ QUES 6
 scores = [80, 90, 70, 100]
 average = sum(scores) / len(scores)
 print(f"Average score: {average}")
+
+QUES 7
+numbers = list(range(10)) # 0 to 9
+# Get every second number
+print(f"Every second number: {numbers[::2]}")
