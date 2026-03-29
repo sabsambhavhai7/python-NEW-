@@ -68,3 +68,8 @@ QUES 3
 import math
 num = 5
 print(f"The factorial of {num} is {math.factorial(num)}")
+
+QUES 4
+colors = ["red", "blue", "red", "green", "red", "blue"]
+count_red = colors.count("red")
+print(f"Red appears {count_red} times.")
