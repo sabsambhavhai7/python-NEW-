@@ -53,3 +53,7 @@ num = 64
 print(math.sqrt(num))
 
 Date: March 29, 2026
+QUES 1
+items = [1, 2, 2, 3, 4, 4, 4, 5]
+unique_items = list(set(items))
+print(f"Original: {items} | Unique: {unique_items}")
