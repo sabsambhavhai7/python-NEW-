@@ -63,3 +63,8 @@ keys = ["Name", "Age", "City"]
 values = ["Sophia", 28, "Berlin"]
 user_dict = dict(zip(keys, values))
 print(user_dict)
+
+QUES 3 
+import math
+num = 5
+print(f"The factorial of {num} is {math.factorial(num)}")
