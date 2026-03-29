@@ -93,3 +93,8 @@ QUES 7
 numbers = list(range(10)) # 0 to 9
 # Get every second number
 print(f"Every second number: {numbers[::2]}")
+
+QUES 8
+import os
+file_exists = os.path.isfile("data.csv")
+print(f"Does the file exist? {file_exists}")
