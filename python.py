@@ -144,3 +144,8 @@ from collections import Counter
 text = "abracadabra"
 counts = Counter(text)
 print(f"Character counts: {dict(counts)}")
+
+ques 4
+a, b = 5, 10
+a, b = b, a
+print(f"a: {a}, b: {b}")
