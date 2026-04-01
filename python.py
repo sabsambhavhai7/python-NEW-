@@ -172,3 +172,7 @@ set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 union_set = set1.union(set2)
 print(f"Combined unique set: {union_set}")
+
+ques 9
+import os
+print(f"Current Directory: {os.getcwd()}")
