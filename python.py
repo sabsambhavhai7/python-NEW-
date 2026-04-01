@@ -122,3 +122,16 @@ QUES 10
 data = [("Apple", 5), ("Banana", 2), ("Orange", 8)]
 data.sort(key=lambda x: x[1])
 print(f"Sorted by quantity: {data}")
+
+
+___________________________________________________________________________________________________________________________________________________
+
+
+Date: April 1, 2026
+
+ques 1
+nested_list = [[1, 2], [3, 4], [5, 6]]
+flat_list = [item for sublist in nested_list for item in sublist]
+print(f"Flattened list: {flat_list}")
+
+
