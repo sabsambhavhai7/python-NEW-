@@ -161,3 +161,8 @@ import random
 chars = string.ascii_letters + string.digits
 password = ''.join(random.choice(chars) for i in range(8))
 print(f"Generated Password: {password}")
+
+ques 7
+str_nums = ["1", "2", "3", "4"]
+int_nums = list(map(int, str_nums))
+print(f"Converted integers: {int_nums}")
