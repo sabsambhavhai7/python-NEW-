@@ -149,3 +149,8 @@ ques 4
 a, b = 5, 10
 a, b = b, a
 print(f"a: {a}, b: {b}")
+
+ques 5
+import sys
+large_list = list(range(10000))
+print(f"Memory size: {sys.getsizeof(large_list)} bytes")
