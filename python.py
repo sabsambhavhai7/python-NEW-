@@ -176,3 +176,9 @@ print(f"Combined unique set: {union_set}")
 ques 9
 import os
 print(f"Current Directory: {os.getcwd()}")
+
+ques 10
+import json
+json_data = '{"name": "Kevin", "age": 30, "city": "Chicago"}'
+parsed = json.loads(json_data)
+print(f"Name from JSON: {parsed['name']}")
