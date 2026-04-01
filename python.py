@@ -154,3 +154,10 @@ ques 5
 import sys
 large_list = list(range(10000))
 print(f"Memory size: {sys.getsizeof(large_list)} bytes")
+
+ques 6 
+import string
+import random
+chars = string.ascii_letters + string.digits
+password = ''.join(random.choice(chars) for i in range(8))
+print(f"Generated Password: {password}")
