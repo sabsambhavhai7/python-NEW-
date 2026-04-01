@@ -166,3 +166,9 @@ ques 7
 str_nums = ["1", "2", "3", "4"]
 int_nums = list(map(int, str_nums))
 print(f"Converted integers: {int_nums}")
+
+ques 8 
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1.union(set2)
+print(f"Combined unique set: {union_set}")
