@@ -139,3 +139,8 @@ fruits = ["Apple", "Banana", "Cherry"]
 for index, fruit in enumerate(fruits, start=1):
     print(f"Rank {index}: {fruit}")
 
+ques 3
+from collections import Counter
+text = "abracadabra"
+counts = Counter(text)
+print(f"Character counts: {dict(counts)}")
