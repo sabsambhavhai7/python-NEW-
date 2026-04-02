@@ -246,3 +246,8 @@ from collections import defaultdict
 counts = defaultdict(int) # Default value for new keys is 0
 counts["apples"] += 1
 print(f"Apples: {counts['apples']}, Oranges: {counts['oranges']}")
+
+ques 10 
+words = ["Python", "is", "awesome"]
+sentence = " ".join(words)
+print(sentence)
