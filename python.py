@@ -253,3 +253,8 @@ sentence = " ".join(words)
 print(sentence)
 
 ques 11
+user_input = "12345"
+if user_input.isdigit():
+    print("Valid numeric input")
+else:
+    print("Contains non-digit characters")
