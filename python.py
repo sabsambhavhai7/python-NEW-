@@ -230,5 +230,11 @@ text = "Hello, World! How's it going?"
 clean_text = text.translate(str.maketrans('', '', string.punctuation))
 print(clean_text)
 
+ques 7
+for i in range(1, 11):
+    progress = "[" + "=" * i + " " * (10 - i) + "]"
+    print(f"\rLoading {progress} {i*10}%", end="")
+    time.sleep(0.1)
+
 
 
