@@ -241,3 +241,8 @@ data = [1, 3, 3, 2, 1, 3, 4, 3, 2]
 most_common = max(set(data), key=data.count)
 print(f"Most frequent item: {most_common}")
 
+ques  9 
+from collections import defaultdict
+counts = defaultdict(int) # Default value for new keys is 0
+counts["apples"] += 1
+print(f"Apples: {counts['apples']}, Oranges: {counts['oranges']}")
