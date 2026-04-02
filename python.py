@@ -251,3 +251,5 @@ ques 10
 words = ["Python", "is", "awesome"]
 sentence = " ".join(words)
 print(sentence)
+
+ques 11
