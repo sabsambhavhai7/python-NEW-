@@ -182,3 +182,6 @@ import json
 json_data = '{"name": "Kevin", "age": 30, "city": "Chicago"}'
 parsed = json.loads(json_data)
 print(f"Name from JSON: {parsed['name']}")
+
+
+_________________________________________________________________________________________________________________________________________________
