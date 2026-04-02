@@ -204,3 +204,9 @@ original = [[1, 2, 3], [4, 5, 6]]
 deep_clone = copy.deepcopy(original)
 deep_clone[0][0] = 99
 print(f"Original: {original[0][0]} | Deep Clone: {deep_clone[0][0]}")
+
+ques 3
+list_a = [1, 2, 3, 4, 5]
+list_b = [4, 5, 6, 7, 8]
+common = list(set(list_a) & set(list_b))
+print(f"Common elements: {common}")
