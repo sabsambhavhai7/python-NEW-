@@ -224,5 +224,11 @@ time.sleep(0.5)
 end_time = time.time()
 print(f"Execution time: {end_time - start_time:.4f} seconds")
 
-q
+ques 6
+import string
+text = "Hello, World! How's it going?"
+clean_text = text.translate(str.maketrans('', '', string.punctuation))
+print(clean_text)
+
+
 
