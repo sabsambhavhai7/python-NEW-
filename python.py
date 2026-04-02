@@ -216,4 +216,13 @@ results = [True, False, True]
 print(f"Is at least one True? {any(results)}")
 print(f"Are all True? {all(results)}")
 
+ques 5
+import time
+start_time = time.time()
+# Simulate a task
+time.sleep(0.5)
+end_time = time.time()
+print(f"Execution time: {end_time - start_time:.4f} seconds")
+
+q
 
