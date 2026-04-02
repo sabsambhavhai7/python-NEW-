@@ -236,5 +236,8 @@ for i in range(1, 11):
     print(f"\rLoading {progress} {i*10}%", end="")
     time.sleep(0.1)
 
-
+ques 8
+data = [1, 3, 3, 2, 1, 3, 4, 3, 2]
+most_common = max(set(data), key=data.count)
+print(f"Most frequent item: {most_common}")
 
