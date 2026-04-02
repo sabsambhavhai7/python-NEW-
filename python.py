@@ -188,3 +188,11 @@ ________________________________________________________________________________
 
 
 Date: April 2, 2026
+
+ques 1
+import copy
+original = [[1, 2, 3], [4, 5, 6]]
+# Deep copy creates a completely independent clone of nested objects
+deep_clone = copy.deepcopy(original)
+deep_clone[0][0] = 99
+print(f"Original: {original[0][0]} | Deep Clone: {deep_clone[0][0]}")
