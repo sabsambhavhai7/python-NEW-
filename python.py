@@ -210,3 +210,10 @@ list_a = [1, 2, 3, 4, 5]
 list_b = [4, 5, 6, 7, 8]
 common = list(set(list_a) & set(list_b))
 print(f"Common elements: {common}")
+
+ques 4
+results = [True, False, True]
+print(f"Is at least one True? {any(results)}")
+print(f"Are all True? {all(results)}")
+
+
