@@ -258,3 +258,10 @@ if user_input.isdigit():
     print("Valid numeric input")
 else:
     print("Contains non-digit characters")
+
+
+___________________________________________________________________________________________________________________________________________________
+
+
+date - 4 april 2026
+
