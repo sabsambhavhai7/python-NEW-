@@ -314,3 +314,12 @@ d2 = date(2026, 4, 4)
 delta = d2 - d1
 print(f"Days passed: {delta.days}")
 
+ques 9 
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Keep only the first 5 elements
+del nums[5:]
+print(f"Truncated list: {nums}")
+
+
+
+
