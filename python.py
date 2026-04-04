@@ -283,3 +283,10 @@ import datetime
 today = datetime.date.today()
 print(f"Today is a: {today.strftime('%A')}")
 
+
+ques 4
+names = ["Alice", "Bob", "Charlie"]
+scores = [85, 90, 95]
+for name, score in zip(names, scores):
+    print(f"{name} scored {score}")
+
