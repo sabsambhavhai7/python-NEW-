@@ -301,3 +301,9 @@ prices = {'apple': 0.5, 'orange': 0.3, 'banana': 0.2}
 sorted_prices = dict(sorted(prices.items(), key=lambda item: item[1]))
 print(f"Sorted by price: {sorted_prices}")
 
+
+ques 7
+data = [1, 2, 3]
+if isinstance(data, list):
+    print("This is a list!")
+
