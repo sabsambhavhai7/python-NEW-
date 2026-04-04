@@ -278,3 +278,8 @@ list2 = [3, 4, 5, 6]
 intersection = [x for x in list1 if x in list2]
 print(f"Intersection: {intersection}")
 
+ques 3
+import datetime
+today = datetime.date.today()
+print(f"Today is a: {today.strftime('%A')}")
+
