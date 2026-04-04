@@ -265,3 +265,8 @@ ________________________________________________________________________________
 
 date - 4 april 2026
 
+ques 1
+from collections import namedtuple
+Point = namedtuple('Point', ['x', 'y'])
+p = Point(10, 20)
+print(f"Coordinates: x={p.x}, y={p.y}")
