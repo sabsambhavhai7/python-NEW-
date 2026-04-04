@@ -307,3 +307,10 @@ data = [1, 2, 3]
 if isinstance(data, list):
     print("This is a list!")
 
+ques 8
+from datetime import date
+d1 = date(2026, 1, 1)
+d2 = date(2026, 4, 4)
+delta = d2 - d1
+print(f"Days passed: {delta.days}")
+
