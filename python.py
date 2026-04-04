@@ -320,6 +320,19 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 del nums[5:]
 print(f"Truncated list: {nums}")
 
+ques 10
+class MyClass:
+    def __init__(self):
+        self.value = 42
+
+obj = MyClass()
+attr_name = "value"
+print(f"Dynamic value: {getattr(obj, attr_name)}")
+
+
+
+
+
 
 
 
