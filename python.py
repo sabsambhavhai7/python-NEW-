@@ -290,3 +290,9 @@ scores = [85, 90, 95]
 for name, score in zip(names, scores):
     print(f"{name} scored {score}")
 
+
+ques 5
+import urllib.request
+with urllib.request.urlopen('https://www.google.com') as response:
+   print(f"Status Code: {response.getcode()}")
+
