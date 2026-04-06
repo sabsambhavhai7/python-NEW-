@@ -334,6 +334,9 @@ ________________________________________________________________________________
 
 Date - 6 april 2026
 
-
-
+ques 1 
+import itertools
+colors = itertools.cycle(['Red', 'Green', 'Blue'])
+# Prints the next three items in the cycle
+print(next(colors), next(colors), next(colors), next(colors))
 
