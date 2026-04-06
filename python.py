@@ -340,3 +340,7 @@ colors = itertools.cycle(['Red', 'Green', 'Blue'])
 # Prints the next three items in the cycle
 print(next(colors), next(colors), next(colors), next(colors))
 
+ques 2
+matrix = [[1, 2], [3, 4], [5, 6]]
+transpose = [list(row) for row in zip(*matrix)]
+print(f"Transposed: {transpose}")
