@@ -372,3 +372,7 @@ ques 6
 number = 255
 print(f"Binary: {bin(number)}, Octal: {oct(number)}, Hex: {hex(number)}")
 
+ques 7
+data = [1, 5, 2, 1, 9, 2, 10]
+unique_ordered = list(dict.fromkeys(data))
+print(unique_ordered)
