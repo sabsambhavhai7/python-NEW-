@@ -390,6 +390,14 @@ def round_to_nearest(n, m):
 print(round_to_nearest(37, 10)) # Rounds to 40
 
 
+ques 10
+def future_function():
+    # Placeholder to prevent indentation errors until code is written
+    pass
+
+print("Function defined successfully with 'pass'")
+
+
 
 
 
