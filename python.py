@@ -363,3 +363,7 @@ def flatten(lst):
 
 print(flatten([1, [2, [3, 4], 5]]))
 
+ques 5
+number = 255
+print(f"Binary: {bin(number)}, Octal: {oct(number)}, Hex: {hex(number)}")
+
