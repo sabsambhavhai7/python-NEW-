@@ -344,3 +344,22 @@ ques 2
 matrix = [[1, 2], [3, 4], [5, 6]]
 transpose = [list(row) for row in zip(*matrix)]
 print(f"Transposed: {transpose}")
+
+
+ques 3
+import os
+path = os.getenv("PATH")
+print(f"First 50 chars of PATH: {path[:50]}...")
+
+ques 4
+def flatten(lst):
+    result = []
+    for i in lst:
+        if isinstance(i, list):
+            result.extend(flatten(i))
+        else:
+            result.append(i)
+    return result
+
+print(flatten([1, [2, [3, 4], 5]]))
+
