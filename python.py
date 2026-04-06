@@ -367,3 +367,8 @@ ques 5
 number = 255
 print(f"Binary: {bin(number)}, Octal: {oct(number)}, Hex: {hex(number)}")
 
+
+ques 6
+number = 255
+print(f"Binary: {bin(number)}, Octal: {oct(number)}, Hex: {hex(number)}")
+
