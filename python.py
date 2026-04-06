@@ -376,3 +376,14 @@ ques 7
 data = [1, 5, 2, 1, 9, 2, 10]
 unique_ordered = list(dict.fromkeys(data))
 print(unique_ordered)
+
+
+ques 8
+import sys
+print(f"Python version: {sys.version.split()[0]}")
+
+
+
+
+
+
