@@ -383,6 +383,12 @@ import sys
 print(f"Python version: {sys.version.split()[0]}")
 
 
+ques 9
+def round_to_nearest(n, m):
+    return m * round(n / m)
+
+print(round_to_nearest(37, 10)) # Rounds to 40
+
 
 
 
