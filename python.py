@@ -441,10 +441,8 @@ import heapq
 scores = [55, 89, 76, 99, 100, 45]
 print(f"Top 3 scores: {heapq.nlargest(3, scores)}")
 
-
-
-
-
-
-
+ques 8
+phrase = "The quick brown fox"
+if "brown" in phrase:
+    print("Found 'brown' in the string!")
 
