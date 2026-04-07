@@ -426,6 +426,14 @@ data = [0, 1, False, 2, '', 3, None]
 filtered_data = list(filter(None, data))
 print(f"Cleaned data: {filtered_data}")
 
+ques 5
+# Removes all "falsy" values (0, False, None, empty strings)
+data = [0, 1, False, 2, '', 3, None]
+filtered_data = list(filter(None, data))
+print(f"Cleaned data: {filtered_data}")
+
+
+
 
 
 
