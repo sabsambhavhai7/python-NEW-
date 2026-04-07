@@ -402,3 +402,8 @@ ________________________________________________________________________________
 
 date - 7 april 2026
 
+ques 1 
+fruits = ["apple", "banana", "cherry"]
+for fruit in reversed(fruits):
+    print(fruit)
+
