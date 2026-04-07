@@ -432,8 +432,19 @@ data = [0, 1, False, 2, '', 3, None]
 filtered_data = list(filter(None, data))
 print(f"Cleaned data: {filtered_data}")
 
-
 ques 6
 import math
 print(f"GCD of 48 and 18: {math.gcd(48, 18)}")
+
+ques 7
+import heapq
+scores = [55, 89, 76, 99, 100, 45]
+print(f"Top 3 scores: {heapq.nlargest(3, scores)}")
+
+
+
+
+
+
+
 
