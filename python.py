@@ -407,3 +407,8 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in reversed(fruits):
     print(fruit)
 
+ques 2
+filename = "report.pdf"
+if filename.endswith(".pdf"):
+    print("This is a PDF document.")
+
