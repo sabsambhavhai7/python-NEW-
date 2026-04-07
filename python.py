@@ -450,7 +450,14 @@ ques 9
 raw_name = "john doe smith"
 print(raw_name.title()) # Output: John Doe Smith
 
-
+ques 10
+import os
+# Replace 'test.txt' with an actual filename to test
+try:
+    size = os.path.getsize('test.txt')
+    print(f"File size: {size} bytes")
+except FileNotFoundError:
+    print("File not found.")
 
 
 
