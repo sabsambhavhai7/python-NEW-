@@ -420,8 +420,11 @@ def rotate_list(lst, n):
 nums = [1, 2, 3, 4, 5]
 print(f"Rotated by 2: {rotate_list(nums, 2)}")
 
-
-
+ques 4
+# Removes all "falsy" values (0, False, None, empty strings)
+data = [0, 1, False, 2, '', 3, None]
+filtered_data = list(filter(None, data))
+print(f"Cleaned data: {filtered_data}")
 
 
 
