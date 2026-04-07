@@ -412,3 +412,18 @@ filename = "report.pdf"
 if filename.endswith(".pdf"):
     print("This is a PDF document.")
 
+
+ques 3
+def rotate_list(lst, n):
+    return lst[n:] + lst[:n]
+
+nums = [1, 2, 3, 4, 5]
+print(f"Rotated by 2: {rotate_list(nums, 2)}")
+
+
+
+
+
+
+
+
