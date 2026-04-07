@@ -446,3 +446,15 @@ phrase = "The quick brown fox"
 if "brown" in phrase:
     print("Found 'brown' in the string!")
 
+ques 9
+raw_name = "john doe smith"
+print(raw_name.title()) # Output: John Doe Smith
+
+
+
+
+
+
+
+
+
