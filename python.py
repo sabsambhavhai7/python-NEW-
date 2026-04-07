@@ -433,8 +433,7 @@ filtered_data = list(filter(None, data))
 print(f"Cleaned data: {filtered_data}")
 
 
-
-
-
-
+ques 6
+import math
+print(f"GCD of 48 and 18: {math.gcd(48, 18)}")
 
