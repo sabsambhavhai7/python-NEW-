@@ -490,3 +490,8 @@ nums = [10, 50, 20, 100, 5]
 max_index = nums.index(max(nums))
 print(f"Max value is at index: {max_index}")
 
+ques 5
+separator = "-" * 20
+print(separator)
+print("Centered Text")
+print(separator)
