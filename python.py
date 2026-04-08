@@ -476,3 +476,17 @@ multiline = (
 )
 print(multiline)
 
+ques 3
+class Person:
+    def __init__(self):
+        self.name = "Leo"
+        self.age = 30
+
+p = Person()
+print(vars(p)) # Returns a dictionary of attributes
+
+ques 4
+nums = [10, 50, 20, 100, 5]
+max_index = nums.index(max(nums))
+print(f"Max value is at index: {max_index}")
+
