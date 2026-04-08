@@ -495,3 +495,11 @@ separator = "-" * 20
 print(separator)
 print("Centered Text")
 print(separator)
+
+
+ques 6
+a = [1, 2, 3]
+b = [2, 3, 4]
+intersection = list(set(a).intersection(b))
+print(f"Shared elements: {intersection}")
+
