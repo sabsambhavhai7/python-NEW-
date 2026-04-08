@@ -510,10 +510,9 @@ print(f"Generated UUID: {unique_id}")
 
 
 
-
- 
-
-
-
-
+ques 8
+import glob
+# Finds all Python files in the current directory
+py_files = glob.glob("*.py")
+print(f"Python files found: {py_files}")
 
