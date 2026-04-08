@@ -468,3 +468,11 @@ ques 1
 first, *middle, last = [1, 2, 3, 4, 5]
 print(f"First: {first}, Middle: {middle}, Last: {last}")
 
+ques 2
+multiline = (
+    "This is a way to write "
+    "a very long string without "
+    "using triple quotes."
+)
+print(multiline)
+
