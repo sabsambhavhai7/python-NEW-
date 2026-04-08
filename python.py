@@ -503,3 +503,17 @@ b = [2, 3, 4]
 intersection = list(set(a).intersection(b))
 print(f"Shared elements: {intersection}")
 
+ques 7
+import uuid
+unique_id = uuid.uuid4()
+print(f"Generated UUID: {unique_id}")
+
+
+
+
+ 
+
+
+
+
+
