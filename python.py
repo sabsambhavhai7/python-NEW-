@@ -464,4 +464,7 @@ ________________________________________________________________________________
 
 Date- 8 APRIL 2026
 
- 
+ques 1
+first, *middle, last = [1, 2, 3, 4, 5]
+print(f"First: {first}, Middle: {middle}, Last: {last}")
+
