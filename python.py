@@ -516,3 +516,17 @@ import glob
 py_files = glob.glob("*.py")
 print(f"Python files found: {py_files}")
 
+ques 9
+items = [{"price": 10}, {"price": 20}, {"price": 15}]
+total = sum(item["price"] for item in items)
+print(f"Total Price: {total}")
+
+
+
+ 
+
+
+
+
+
+
