@@ -521,6 +521,10 @@ items = [{"price": 10}, {"price": 20}, {"price": 15}]
 total = sum(item["price"] for item in items)
 print(f"Total Price: {total}")
 
+ques 10 
+text = "Python is Fun"
+print(text.swapcase()) # pYTHON IS fUN
+
 
 
  
