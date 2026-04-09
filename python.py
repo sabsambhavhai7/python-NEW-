@@ -555,4 +555,10 @@ users = [{"name": "Zoe", "age": 25}, {"name": "Alex", "age": 30}]
 users.sort(key=lambda x: x["name"])
 print(f"Sorted by name: {users}")
 
+ques 5
+import itertools
+for i in itertools.count(start=10, step=5):
+    if i > 30: break
+    print(i, end=" ") # 10 15 20 25 30
+
 
