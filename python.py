@@ -545,4 +545,8 @@ points = [(1, 2), (3, 4), (5, 6)]
 flat = [num for t in points for num in t]
 print(f"Flattened: {flat}")
 
+ques 3
+items = [10, 20, 30]
+# Use pop() to get and remove, or just index -1 to peek
+print(f"Last item: {items[-1] if items else 'Empty'}")
 
