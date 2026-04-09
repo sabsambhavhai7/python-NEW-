@@ -561,4 +561,9 @@ for i in itertools.count(start=10, step=5):
     if i > 30: break
     print(i, end=" ") # 10 15 20 25 30
 
+ques 6
+list1 = [1, 2, 3, 4]
+list2 = [1, 2]
+diff = list(set(list1) - set(list2))
+print(f"Difference: {diff}")
 
