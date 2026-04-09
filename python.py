@@ -464,3 +464,80 @@ ________________________________________________________________________________
 
 Date- 8 APRIL 2026
 
+
+ques 1
+first, *middle, last = [1, 2, 3, 4, 5]
+print(f"First: {first}, Middle: {middle}, Last: {last}")
+
+ques 2
+multiline = (
+    "This is a way to write "
+    "a very long string without "
+    "using triple quotes."
+)
+print(multiline)
+
+ques 3
+class Person:
+    def __init__(self):
+        self.name = "Leo"
+        self.age = 30
+
+p = Person()
+print(vars(p)) # Returns a dictionary of attributes
+
+ques 4
+nums = [10, 50, 20, 100, 5]
+max_index = nums.index(max(nums))
+print(f"Max value is at index: {max_index}")
+
+ques 5
+separator = "-" * 20
+print(separator)
+print("Centered Text")
+print(separator)
+
+
+ques 6
+a = [1, 2, 3]
+b = [2, 3, 4]
+intersection = list(set(a).intersection(b))
+print(f"Shared elements: {intersection}")
+
+ques 7
+import uuid
+unique_id = uuid.uuid4()
+print(f"Generated UUID: {unique_id}")
+
+
+
+ques 8
+import glob
+# Finds all Python files in the current directory
+py_files = glob.glob("*.py")
+print(f"Python files found: {py_files}")
+
+ques 9
+items = [{"price": 10}, {"price": 20}, {"price": 15}]
+total = sum(item["price"] for item in items)
+print(f"Total Price: {total}")
+
+ques 10 
+text = "Python is Fun"
+print(text.swapcase()) # pYTHON IS fUN
+
+
+
+ _________________________________________________________________________________________________________________________________________________
+
+
+date - 9 april 2026
+
+ques 1
+def is_unique(lst):
+    return len(lst) == len(set(lst))
+
+nums = [1, 2, 3, 4, 5]
+print(f"Are all unique? {is_unique(nums)}")
+
+
