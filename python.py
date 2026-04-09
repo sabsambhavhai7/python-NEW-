@@ -590,6 +590,12 @@ def float_range(start, stop, step):
 
 print(list(float_range(0, 1, 0.2)))
 
+ques 10 
+list1 = [1, 2, 3, 4]
+list2 = [1, 2]
+diff = list(set(list1) - set(list2))
+print(f"Difference: {diff}")
+
 
 
 
