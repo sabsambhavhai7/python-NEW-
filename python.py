@@ -540,4 +540,9 @@ def is_unique(lst):
 nums = [1, 2, 3, 4, 5]
 print(f"Are all unique? {is_unique(nums)}")
 
+ques 2 
+points = [(1, 2), (3, 4), (5, 6)]
+flat = [num for t in points for num in t]
+print(f"Flattened: {flat}")
+
 
