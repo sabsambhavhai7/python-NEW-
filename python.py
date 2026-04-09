@@ -567,3 +567,12 @@ list2 = [1, 2]
 diff = list(set(list1) - set(list2))
 print(f"Difference: {diff}")
 
+
+ques 7 
+from itertools import zip_longest
+names = ["Alice", "Bob"]
+scores = [100, 90, 80]
+paired = list(zip_longest(names, scores, fillvalue="N/A"))
+print(paired)
+
+
