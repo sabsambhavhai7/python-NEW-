@@ -575,4 +575,12 @@ scores = [100, 90, 80]
 paired = list(zip_longest(names, scores, fillvalue="N/A"))
 print(paired)
 
+ques 8 
+text = "apple banana apple cherry banana apple"
+words = text.split()
+freq = {word: words.count(word) for word in set(words)}
+print(f"Word frequencies: {freq}")
+
+
+
 
