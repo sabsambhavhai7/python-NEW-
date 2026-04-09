@@ -550,10 +550,9 @@ items = [10, 20, 30]
 # Use pop() to get and remove, or just index -1 to peek
 print(f"Last item: {items[-1] if items else 'Empty'}")
 
-
-
 ques 4
 users = [{"name": "Zoe", "age": 25}, {"name": "Alex", "age": 30}]
 users.sort(key=lambda x: x["name"])
 print(f"Sorted by name: {users}")
+
 
