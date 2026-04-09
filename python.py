@@ -581,6 +581,28 @@ words = text.split()
 freq = {word: words.count(word) for word in set(words)}
 print(f"Word frequencies: {freq}")
 
+ques 9 
+# Standard range only does ints; this is a float-friendly generator
+def float_range(start, stop, step):
+    while start < stop:
+        yield round(start, 2)
+        start += step
+
+print(list(float_range(0, 1, 0.2)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
