@@ -744,6 +744,11 @@ def lerp(start, end, t):
 # Find value 25% of the way between 10 and 20
 print(f"25% between 10 and 20: {lerp(10, 20, 0.25)}")
 
+ques 10
+data = [1, 2, 3, 4, 5]
+data.clear()
+print(f"List after clear: {data}")
+
 
 
 
