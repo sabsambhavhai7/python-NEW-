@@ -604,3 +604,10 @@ ________________________________________________________________________________
 
 Date - 10 April 2026
 
+ques 1 
+import heapq
+list1 = [1, 3, 5]
+list2 = [2, 4, 6]
+merged = list(heapq.merge(list1, list2))
+print(f"Merged sorted list: {merged}")
+
