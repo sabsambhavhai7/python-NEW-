@@ -629,4 +629,10 @@ old_dict = {'a': 1, 'b': 2, 'c': 3}
 new_dict = {value: key for key, value in old_dict.items()}
 print(f"Swapped: {new_dict}")
 
+ques 4
+set_a = {1, 2, 3}
+set_b = {1, 2, 3, 4, 5}
+print(f"Is A a subset of B? {set_a.issubset(set_b)}")
+
+
 
