@@ -712,7 +712,11 @@ compressed = "".join(f"{len(list(g))}{k}" for k, g in groupby(data))
 print(f"Compressed: {compressed}") # 3A3B2C1D2A
 
 
+ques 6
+import inspect
+def sample_func(a, b, c=10): pass
 
-
+params = inspect.signature(sample_func).parameters
+print(f"Function arguments: {list(params.keys())}")
 
 
