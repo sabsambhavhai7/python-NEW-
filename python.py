@@ -624,4 +624,9 @@ class Product:
 p = Product("Laptop", 1200.00, 3)
 print(p)
 
+ques 3
+old_dict = {'a': 1, 'b': 2, 'c': 3}
+new_dict = {value: key for key, value in old_dict.items()}
+print(f"Swapped: {new_dict}")
+
 
