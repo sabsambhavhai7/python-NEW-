@@ -372,6 +372,77 @@ ques 6
 number = 255
 print(f"Binary: {bin(number)}, Octal: {oct(number)}, Hex: {hex(number)}")
 
+ques 5
+from itertools import groupby
+data = "AAABBBCCDAA"
+compressed = "".join(f"{len(list(g))}{k}" for k, g in groupby(data))
+print(f"Compressed: {compressed}") # 3A3B2C1D2A
+
+
+
+ques 6
+import inspect
+def sample_func(a, b, c=10): pass
+
+params = inspect.signature(sample_func).parameters
+print(f"Function arguments: {list(params.keys())}")
+
+
+ques 7
+def count_up_to(max_val):
+    count = 1
+    while count <= max_val:
+        yield count
+        count += 1
+
+counter = count_up_to(5)
+print(list(counter))
+
+
+
+ques 8 
+from itertools import chain
+list_a = [1, 2]
+list_b = ['a', 'b']
+for item in chain(list_a, list_b):
+    print(item, end=" ")
+
+
+ques 9 
+def lerp(start, end, t):
+    return start + t * (end - start)
+
+# Find value 25% of the way between 10 and 20
+print(f"25% between 10 and 20: {lerp(10, 20, 0.25)}")
+
+
+
+ques 10
+data = [1, 2, 3, 4, 5]
+data.clear()
+print(f"List after clear: {data}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ques 7
 data = [1, 5, 2, 1, 9, 2, 10]
 unique_ordered = list(dict.fromkeys(data))
@@ -633,6 +704,15 @@ ques 4
 set_a = {1, 2, 3}
 set_b = {1, 2, 3, 4, 5}
 print(f"Is A a subset of B? {set_a.issubset(set_b)}")
+
+ques 5
+from itertools import groupby
+data = "AAABBBCCDAA"
+compressed = "".join(f"{len(list(g))}{k}" for k, g in groupby(data))
+print(f"Compressed: {compressed}") # 3A3B2C1D2A
+
+
+
 
 
 
