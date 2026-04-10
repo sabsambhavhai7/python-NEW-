@@ -611,3 +611,17 @@ list2 = [2, 4, 6]
 merged = list(heapq.merge(list1, list2))
 print(f"Merged sorted list: {merged}")
 
+
+ques 2
+from dataclasses import dataclass
+
+@dataclass
+class Product:
+    name: str
+    price: float
+    quantity: int
+
+p = Product("Laptop", 1200.00, 3)
+print(p)
+
+
