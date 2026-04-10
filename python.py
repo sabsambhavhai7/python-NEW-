@@ -729,5 +729,45 @@ def count_up_to(max_val):
 counter = count_up_to(5)
 print(list(counter))
 
+ques 8 
+from itertools import chain
+list_a = [1, 2]
+list_b = ['a', 'b']
+for item in chain(list_a, list_b):
+    print(item, end=" ")
+
+
+ques 9 
+def lerp(start, end, t):
+    return start + t * (end - start)
+
+# Find value 25% of the way between 10 and 20
+print(f"25% between 10 and 20: {lerp(10, 20, 0.25)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
