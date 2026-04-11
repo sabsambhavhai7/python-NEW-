@@ -752,8 +752,17 @@ print(f"List after clear: {data}")
 
 
 
+_________________________________________________________________________________________________________________________________________________
 
 
+date - 11 april 2026 
+
+ques 1 
+import math
+def round_sig(x, sig):
+    return round(x, sig - int(math.floor(math.log10(abs(x)))) - 1)
+
+print(round_sig(0.00123456, 3)) # 0.00123
 
 
 
