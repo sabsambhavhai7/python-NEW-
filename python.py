@@ -810,11 +810,6 @@ data = [1, 2, 3, 1, 2, 1, 1, 4]
 most_common_val, count = Counter(data).most_common(1)[0]
 print(f"Value {most_common_val} appears {count} times.")
 
-ques 8
-import base64
-text = "Python101"
-encoded = base64.b64encode(text.encode())
-print(f"Encoded: {encoded.decode()}")
 
 ques 9
 
