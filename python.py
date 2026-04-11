@@ -789,7 +789,11 @@ print(to_camel_case("user_profile_data")) # userProfileData
 
 
 
-
+ques 5
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+# Elements in either set, but not both
+print(f"Unique to each: {set1 ^ set2}")
 
 
 
