@@ -764,7 +764,12 @@ def round_sig(x, sig):
 
 print(round_sig(0.00123456, 3)) # 0.00123
 
-
+ques 2
+import heapq
+pq = []
+heapq.heappush(pq, (2, "Task B"))
+heapq.heappush(pq, (1, "Task A")) # Lower number = higher priority
+print(f"Next task: {heapq.heappop(pq)[1]}")
 
 
 
