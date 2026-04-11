@@ -824,5 +824,9 @@ encoded = base64.b64encode(text.encode())
 print(f"Encoded: {encoded.decode()}")
 
 
-
+ques 10
+import math
+# Filters out private attributes starting with underscore
+public_math = [attr for attr in dir(math) if not attr.startswith("_")]
+print(f"First 5 math functions: {public_math[:5]}")
 
