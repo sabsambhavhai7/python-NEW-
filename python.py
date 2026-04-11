@@ -772,7 +772,12 @@ heapq.heappush(pq, (1, "Task A")) # Lower number = higher priority
 print(f"Next task: {heapq.heappop(pq)[1]}")
 
 
+ques 3 
+import re
+def is_hex_color(code):
+    return bool(re.search(r'^#(?:[0-9a-fA-F]{3}){1,2}$', code))
 
+print(is_hex_color("#FFA500")) # True
 
 
 
