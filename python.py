@@ -796,8 +796,13 @@ set2 = {3, 4, 5}
 print(f"Unique to each: {set1 ^ set2}")
 
 
+ques 6
+from contextlib import suppress
+import os
 
-
+with suppress(FileNotFoundError):
+    os.remove("non_existent_file.txt")
+print("Process continued without crashing.")
 
 
 
