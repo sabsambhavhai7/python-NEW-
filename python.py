@@ -818,7 +818,10 @@ encoded = base64.b64encode(text.encode())
 print(f"Encoded: {encoded.decode()}")
 
 ques 9
-
+import base64
+text = "Python101"
+encoded = base64.b64encode(text.encode())
+print(f"Encoded: {encoded.decode()}")
 
 
 
