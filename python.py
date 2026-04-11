@@ -780,7 +780,12 @@ def is_hex_color(code):
 print(is_hex_color("#FFA500")) # True
 
 
+ques 4
+def to_camel_case(text):
+    words = text.split('_')
+    return words[0] + ''.join(w.title() for w in words[1:])
 
+print(to_camel_case("user_profile_data")) # userProfileData
 
 
 
