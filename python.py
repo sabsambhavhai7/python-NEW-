@@ -835,4 +835,7 @@ ________________________________________________________________________________
 
 date - 12 april 2026
 
-
+ques 1 
+email = "user@example.com"
+domain = email.split('@')[-1]
+print(f"Domain: {domain}")
