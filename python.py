@@ -853,5 +853,9 @@ def is_isogram(word):
 
 print(f"Is 'Python' an isogram? {is_isogram('Python')}")
 
-
+ques 4
+from itertools import groupby
+data = [("Animal", "Dog"), ("Animal", "Cat"), ("Plant", "Oak")]
+for key, group in groupby(data, lambda x: x[0]):
+    print(f"{key}: {list(group)}")
 
