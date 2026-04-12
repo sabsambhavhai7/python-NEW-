@@ -863,3 +863,14 @@ ques 5
 text = " P y t h o n   "
 clean_text = "".join(text.split())
 print(f"Cleaned: '{clean_text}'")
+
+ques 6
+def binary_search(arr, target, low, high):
+    if low > high: return -1
+    mid = (low + high) // 2
+    if arr[mid] == target: return mid
+    elif arr[mid] > target: return binary_search(arr, target, low, mid - 1)
+    else: return binary_search(arr, target, mid + 1, high)
+
+print(f"Index of 7: {binary_search([1, 3, 5, 7, 9], 7, 0, 4)}")
+
