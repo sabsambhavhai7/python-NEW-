@@ -878,3 +878,10 @@ ques 7
 nested = {'a': {'x': 1}, 'b': {'y': 2}}
 flat = [(k, sub_k, v) for k, sub in nested.items() for sub_k, v in sub.items()]
 print(flat)
+
+ques 8 
+class A: pass
+class B(A): pass
+print(f"Inheritance order for B: {B.mro()}")
+
+ques 9 
