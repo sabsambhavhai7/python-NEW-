@@ -889,3 +889,11 @@ from datetime import datetime, timedelta
 start = datetime(2026, 4, 1)
 date_list = [start + timedelta(days=x) for x in range(5)]
 print([d.strftime("%Y-%m-%d") for d in date_list])
+
+
+ques 10 
+import sys
+# Useful for terminating scripts on critical errors
+if len(sys.argv) < 1:
+    sys.exit("Error: No arguments provided.")
+print("Script proceeding...")
