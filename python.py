@@ -896,4 +896,4 @@ import sys
 # Useful for terminating scripts on critical errors
 if len(sys.argv) < 1:
     sys.exit("Error: No arguments provided.")
-print("Script proceeding...")
+print("Script proceeding...") 
