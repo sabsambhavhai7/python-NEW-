@@ -839,3 +839,19 @@ ques 1
 email = "user@example.com"
 domain = email.split('@')[-1]
 print(f"Domain: {domain}")
+
+ques 2
+# Returns a tuple of (quotient, remainder)
+q, r = divmod(17, 5)
+print(f"Quotient: {q}, Remainder: {r}")
+
+
+ques 3
+# An isogram is a word with no repeating letters
+def is_isogram(word):
+    return len(word.lower()) == len(set(word.lower()))
+
+print(f"Is 'Python' an isogram? {is_isogram('Python')}")
+
+
+
