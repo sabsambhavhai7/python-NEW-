@@ -875,4 +875,6 @@ def binary_search(arr, target, low, high):
 print(f"Index of 7: {binary_search([1, 3, 5, 7, 9], 7, 0, 4)}")
 
 ques 7
-
+nested = {'a': {'x': 1}, 'b': {'y': 2}}
+flat = [(k, sub_k, v) for k, sub in nested.items() for sub_k, v in sub.items()]
+print(flat)
