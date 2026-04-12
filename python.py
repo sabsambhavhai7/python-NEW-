@@ -859,3 +859,7 @@ data = [("Animal", "Dog"), ("Animal", "Cat"), ("Plant", "Oak")]
 for key, group in groupby(data, lambda x: x[0]):
     print(f"{key}: {list(group)}")
 
+ques 5
+text = " P y t h o n   "
+clean_text = "".join(text.split())
+print(f"Cleaned: '{clean_text}'")
