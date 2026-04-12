@@ -885,3 +885,7 @@ class B(A): pass
 print(f"Inheritance order for B: {B.mro()}")
 
 ques 9 
+from datetime import datetime, timedelta
+start = datetime(2026, 4, 1)
+date_list = [start + timedelta(days=x) for x in range(5)]
+print([d.strftime("%Y-%m-%d") for d in date_list])
