@@ -921,3 +921,9 @@ name = "Gemini"
 version = 3
 print("Hello, %s version %d" % (name, version))
 
+ques 4
+stats = {'cpu': 20, 'memory': 80, 'disk': 15}
+min_usage = min(stats, key=stats.get)
+print(f"Lowest usage category: {min_usage}")
+
+
