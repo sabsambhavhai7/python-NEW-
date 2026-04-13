@@ -908,3 +908,9 @@ ques 1
 words = ["apple", "pie", "banana", "kiwi"]
 words.sort(key=len)
 print(f"Sorted by length: {words}")
+
+ques 2
+# Check if any number in the list is greater than 100
+nums = [10, 55, 30, 105, 2]
+has_large_num = any(x > 100 for x in nums)
+print(f"Contains number > 100: {has_large_num}")
