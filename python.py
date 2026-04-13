@@ -935,3 +935,13 @@ def demo_func():
 print(inspect.getsource(demo_func))
 
 
+ques 6 
+import inspect
+def demo_func():
+    return "Hello"
+
+# This prints the actual source code of the function
+print(inspect.getsource(demo_func))
+
+
+
