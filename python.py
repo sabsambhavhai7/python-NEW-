@@ -943,5 +943,8 @@ def demo_func():
 # This prints the actual source code of the function
 print(inspect.getsource(demo_func))
 
-
+ques 7
+pairs = [('a', 1), ('b', 2), ('c', 3)]
+result = dict(pairs)
+print(result)
 
