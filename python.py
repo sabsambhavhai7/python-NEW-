@@ -948,3 +948,12 @@ pairs = [('a', 1), ('b', 2), ('c', 3)]
 result = dict(pairs)
 print(result)
 
+
+ques 8
+
+import tempfile
+with tempfile.TemporaryFile(mode='w+') as tf:
+    tf.write('Secret data')
+    tf.seek(0)
+    print(f"Temp file content: {tf.read()}")
+# File is automatically deleted here
