@@ -957,3 +957,9 @@ with tempfile.TemporaryFile(mode='w+') as tf:
     tf.seek(0)
     print(f"Temp file content: {tf.read()}")
 # File is automatically deleted here
+
+
+ques 9
+# Useful when dynamically creating variables or keys
+print(f"Is 'var_1' valid? {'var_1'.isidentifier()}")
+print(f"Is '1_var' valid? {'1_var'.isidentifier()}")
