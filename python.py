@@ -926,4 +926,15 @@ stats = {'cpu': 20, 'memory': 80, 'disk': 15}
 min_usage = min(stats, key=stats.get)
 print(f"Lowest usage category: {min_usage}")
 
+ques 5
+import inspect
+def demo_func():
+    return "Hello"
+
+# This prints the actual source code of the function
+print(inspect.getsource(demo_func))
+
+
+
+
 
