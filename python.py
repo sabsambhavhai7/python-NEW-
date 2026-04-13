@@ -914,3 +914,10 @@ ques 2
 nums = [10, 55, 30, 105, 2]
 has_large_num = any(x > 100 for x in nums)
 print(f"Contains number > 100: {has_large_num}")
+
+ques 3
+# The "old school" way, still useful in some logging scenarios
+name = "Gemini"
+version = 3
+print("Hello, %s version %d" % (name, version))
+
