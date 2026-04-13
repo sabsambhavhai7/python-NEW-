@@ -905,3 +905,6 @@ ________________________________________________________________________________
 date - 13 april 2026
 
 ques 1 
+words = ["apple", "pie", "banana", "kiwi"]
+words.sort(key=len)
+print(f"Sorted by length: {words}")
