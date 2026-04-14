@@ -975,3 +975,8 @@ ques 1
 grades = {"Math": 90, "Science": 85, "History": 88}
 for i, (subject, score) in enumerate(grades.items(), start=1):
     print(f"{i}. {subject}: {score}")
+
+ques 2
+nums = [1, 5, 8, 12]
+is_sorted = all(nums[i] <= nums[i+1] for i in range(len(nums)-1))
+print(f"Is the list sorted? {is_sorted}")
