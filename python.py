@@ -999,3 +999,10 @@ ques 5
 n = 98765
 digits = [int(d) for d in str(n)]
 print(f"Digits list: {digits}")
+
+ques 6
+import heapq
+list_a = [1, 10, 20]
+list_b = [5, 15, 25]
+for val in heapq.merge(list_a, list_b):
+    print(val, end=" ")
