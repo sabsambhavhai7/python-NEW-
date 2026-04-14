@@ -1012,3 +1012,10 @@ keys = ['cpu', 'ram', 'gpu']
 # Initializes all keys with 0
 usage = dict.fromkeys(keys, 0)
 print(usage)
+
+ques 8
+# Convert character to ASCII and vice-versa
+char = 'A'
+code = ord(char)
+print(f"ASCII of {char} is {code}")
+print(f"Character for 66 is {chr(66)}")
