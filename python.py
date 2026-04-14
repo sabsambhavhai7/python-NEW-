@@ -964,3 +964,7 @@ ques 9
 # Useful when dynamically creating variables or keys
 print(f"Is 'var_1' valid? {'var_1'.isidentifier()}")
 print(f"Is '1_var' valid? {'1_var'.isidentifier()}")
+
+
+___________________________________________________________________________________________________________________________________________________
+
