@@ -994,3 +994,8 @@ rev_data = defaultdict(list)
 for k, v in data.items():
     rev_data[v].append(k)
 print(dict(rev_data)) # {1: ['a', 'c'], 2: ['b']}
+
+ques 5
+n = 98765
+digits = [int(d) for d in str(n)]
+print(f"Digits list: {digits}")
