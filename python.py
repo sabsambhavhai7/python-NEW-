@@ -1006,3 +1006,9 @@ list_a = [1, 10, 20]
 list_b = [5, 15, 25]
 for val in heapq.merge(list_a, list_b):
     print(val, end=" ")
+
+ques 7
+keys = ['cpu', 'ram', 'gpu']
+# Initializes all keys with 0
+usage = dict.fromkeys(keys, 0)
+print(usage)
