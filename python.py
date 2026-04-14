@@ -980,3 +980,9 @@ ques 2
 nums = [1, 5, 8, 12]
 is_sorted = all(nums[i] <= nums[i+1] for i in range(len(nums)-1))
 print(f"Is the list sorted? {is_sorted}")
+
+ques 3
+import re
+text = "The price is 100 dollars and 50 cents."
+numbers = re.findall(r'\d+', text)
+print(f"Numbers found: {numbers}")
