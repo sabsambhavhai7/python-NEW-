@@ -986,3 +986,11 @@ import re
 text = "The price is 100 dollars and 50 cents."
 numbers = re.findall(r'\d+', text)
 print(f"Numbers found: {numbers}")
+
+ques 4
+from collections import defaultdict
+data = {'a': 1, 'b': 2, 'c': 1}
+rev_data = defaultdict(list)
+for k, v in data.items():
+    rev_data[v].append(k)
+print(dict(rev_data)) # {1: ['a', 'c'], 2: ['b']}
