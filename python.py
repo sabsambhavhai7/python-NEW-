@@ -969,3 +969,9 @@ print(f"Is '1_var' valid? {'1_var'.isidentifier()}")
 ___________________________________________________________________________________________________________________________________________________
 
 date - 14 april 2026
+
+
+ques 1
+grades = {"Math": 90, "Science": 85, "History": 88}
+for i, (subject, score) in enumerate(grades.items(), start=1):
+    print(f"{i}. {subject}: {score}")
