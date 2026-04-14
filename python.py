@@ -1019,3 +1019,8 @@ char = 'A'
 code = ord(char)
 print(f"ASCII of {char} is {code}")
 print(f"Character for 66 is {chr(66)}")
+
+ques 9
+import sys
+data = {i: i**2 for i in range(1000)}
+print(f"Memory size: {sys.getsizeof(data)} bytes")
