@@ -1024,3 +1024,9 @@ ques 9
 import sys
 data = {i: i**2 for i in range(1000)}
 print(f"Memory size: {sys.getsizeof(data)} bytes")
+
+ques 10
+set_x = {1, 2, 3}
+set_y = {4, 5, 6}
+# Returns True if sets have no common elements
+print(f"No overlap? {set_x.isdisjoint(set_y)}")
