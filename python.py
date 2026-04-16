@@ -1052,3 +1052,12 @@ def is_anagram(str1, str2):
     return sorted(str1.lower()) == sorted(str2.lower())
 
 print(f"Is 'Listen' an anagram of 'Silent'? {is_anagram('Listen', 'Silent')}")
+
+
+ques 4
+# Note: Requires 'pip install tqdm'
+# For the standard library version:
+import time
+for i in range(10):
+    print(f"Processing... {i+1}/10", end="\r")
+    time.sleep(0.3)
