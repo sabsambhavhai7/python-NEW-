@@ -1074,3 +1074,9 @@ def sieve(limit):
     return primes
 
 print(f"Primes up to 50: {sieve(50)}")
+
+
+ques 6
+num = 42
+formatted = str(num).zfill(5)
+print(f"Padded ID: {formatted}") # 00042
