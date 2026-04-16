@@ -1040,3 +1040,9 @@ ques 1
 import statistics
 data = [1, 3, 5, 7, 9, 11]
 print(f"Median: {statistics.median(data)}")
+
+ques 2
+import textwrap
+long_text = "Python is an interpreted, high-level, general-purpose programming language."
+wrapped = textwrap.fill(long_text, width=30)
+print(wrapped)
