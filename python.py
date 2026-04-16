@@ -1101,3 +1101,8 @@ items = ['A', 'B', 'C']
 # Get all possible arrangements of 2 items
 perms = list(permutations(items, 2))
 print(f"Permutations: {perms}")
+
+
+ques 10 
+import os
+print(f"Total CPU cores available: {os.cpu_count()}")
