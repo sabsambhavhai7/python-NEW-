@@ -1046,3 +1046,9 @@ import textwrap
 long_text = "Python is an interpreted, high-level, general-purpose programming language."
 wrapped = textwrap.fill(long_text, width=30)
 print(wrapped)
+
+ques 3
+def is_anagram(str1, str2):
+    return sorted(str1.lower()) == sorted(str2.lower())
+
+print(f"Is 'Listen' an anagram of 'Silent'? {is_anagram('Listen', 'Silent')}")
