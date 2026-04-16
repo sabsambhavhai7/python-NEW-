@@ -1094,3 +1094,10 @@ counts = Counter(data)
 total = len(data)
 percentages = {k: f"{(v/total)*100:.1f}%" for k, v in counts.items()}
 print(percentages)
+
+ques 9 
+from itertools import permutations
+items = ['A', 'B', 'C']
+# Get all possible arrangements of 2 items
+perms = list(permutations(items, 2))
+print(f"Permutations: {perms}")
