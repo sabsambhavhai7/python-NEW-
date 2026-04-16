@@ -1079,4 +1079,9 @@ print(f"Primes up to 50: {sieve(50)}")
 ques 6
 num = 42
 formatted = str(num).zfill(5)
-print(f"Padded ID: {formatted}") # 00042
+print(f"Padded ID: {formatted}") # 00042"
+
+ques 7
+sets = [{1, 2, 3}, {2, 3, 4}, {3, 4, 5}]
+common = set.intersection(*sets)
+print(f"Common to all: {common}")
