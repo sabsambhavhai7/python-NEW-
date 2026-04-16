@@ -1085,3 +1085,12 @@ ques 7
 sets = [{1, 2, 3}, {2, 3, 4}, {3, 4, 5}]
 common = set.intersection(*sets)
 print(f"Common to all: {common}")
+
+
+ques 8
+from collections import Counter
+data = ['A', 'A', 'B', 'C', 'A', 'B']
+counts = Counter(data)
+total = len(data)
+percentages = {k: f"{(v/total)*100:.1f}%" for k, v in counts.items()}
+print(percentages)
