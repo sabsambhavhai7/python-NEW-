@@ -1061,3 +1061,16 @@ import time
 for i in range(10):
     print(f"Processing... {i+1}/10", end="\r")
     time.sleep(0.3)
+
+ques 5
+def sieve(limit):
+    primes = []
+    is_prime = [True] * (limit + 1)
+    for p in range(2, limit + 1):
+        if is_prime[p]:
+            primes.append(p)
+            for i in range(p * p, limit + 1, p):
+                is_prime[i] = False
+    return primes
+
+print(f"Primes up to 50: {sieve(50)}")
