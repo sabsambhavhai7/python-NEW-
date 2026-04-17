@@ -1117,4 +1117,8 @@ import sys
 x = "Hello, Python!"
 print(f"Memory size of string: {sys.getsizeof(x)} bytes")
 
-
+ques 2
+list1 = [1, 2, 3, 4, 5]
+list2 = [1, 2, 4]
+diff = [item for item in list1 if item not in list2]
+print(f"Difference: {diff}")
