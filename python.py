@@ -1129,3 +1129,14 @@ items = ['A', 'B', 'C', 'D']
 # Find all unique pairs (order doesn't matter)
 combos = list(combinations(items, 2))
 print(f"Combinations: {combos}")
+
+ques 4
+def key_exists(data, key):
+    if key in data: return True
+    for v in data.values():
+        if isinstance(v, dict):
+            if key_exists(v, key): return True
+    return False
+
+nested = {'a': {'b': {'c': 10}}}
+print(f"Does 'c' exist? {key_exists(nested, 'c')}")
