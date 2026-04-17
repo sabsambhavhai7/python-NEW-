@@ -1163,3 +1163,9 @@ nums = [2, 4, 6, 8]
 # Returns True only if every number is even
 all_even = all(n % 2 == 0 for n in nums)
 print(f"Are all even? {all_even}")
+
+ques 9 
+import shlex
+cmd = 'echo "Hello World" --count 5'
+parsed = shlex.split(cmd)
+print(f"Parsed command: {parsed}")
