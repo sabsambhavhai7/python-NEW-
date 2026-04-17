@@ -1112,4 +1112,9 @@ ________________________________________________________________________________
 
 date 17 april 2026 
 
+ques 1 
+import sys
+x = "Hello, Python!"
+print(f"Memory size of string: {sys.getsizeof(x)} bytes")
+
 
