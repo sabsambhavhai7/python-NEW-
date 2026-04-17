@@ -1145,3 +1145,15 @@ ques 5
 text = "Python"
 byte_arr = bytearray(text, 'utf-8')
 print(f"Byte Array: {byte_arr}")
+
+ques 6
+import bisect
+sorted_list = [10, 20, 30, 40]
+# Find where 25 should be inserted to keep the list sorted
+bisect.insort(sorted_list, 25)
+print(f"Updated list: {sorted_list}")
+
+ques 7
+hex_str = "0xFF"
+val = int(hex_str, 16)
+print(f"Decimal value: {val}")
