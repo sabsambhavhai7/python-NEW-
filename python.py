@@ -1122,3 +1122,10 @@ list1 = [1, 2, 3, 4, 5]
 list2 = [1, 2, 4]
 diff = [item for item in list1 if item not in list2]
 print(f"Difference: {diff}")
+
+ques 3
+from itertools import combinations
+items = ['A', 'B', 'C', 'D']
+# Find all unique pairs (order doesn't matter)
+combos = list(combinations(items, 2))
+print(f"Combinations: {combos}")
