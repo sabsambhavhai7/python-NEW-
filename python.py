@@ -1140,3 +1140,8 @@ def key_exists(data, key):
 
 nested = {'a': {'b': {'c': 10}}}
 print(f"Does 'c' exist? {key_exists(nested, 'c')}")
+
+ques 5
+text = "Python"
+byte_arr = bytearray(text, 'utf-8')
+print(f"Byte Array: {byte_arr}")
