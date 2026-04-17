@@ -1157,3 +1157,9 @@ ques 7
 hex_str = "0xFF"
 val = int(hex_str, 16)
 print(f"Decimal value: {val}")
+
+ques 8
+nums = [2, 4, 6, 8]
+# Returns True only if every number is even
+all_even = all(n % 2 == 0 for n in nums)
+print(f"Are all even? {all_even}")
