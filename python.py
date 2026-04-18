@@ -1184,3 +1184,9 @@ import itertools
 nums = [1, 2, 3, 4, 5]
 cum_sum = list(itertools.accumulate(nums))
 print(f"Cumulative Sum: {cum_sum}") # [1, 3, 6, 10, 15]
+
+ques 2
+import fnmatch
+files = ["data1.txt", "data2.jpg", "config.ini", "data3.txt"]
+txt_files = fnmatch.filter(files, "data*.txt")
+print(f"Filtered files: {txt_files}")
