@@ -1217,3 +1217,10 @@ ques 6
 scores = {"Alice": 85, "Bob": 40, "Charlie": 92}
 passed = {name: score for name, score in scores.items() if score >= 50}
 print(f"Passed: {passed}")
+
+
+ques 7
+from itertools import chain
+nested = [[1, 2], [3, 4], [5]]
+flat = list(chain.from_iterable(nested))
+print(f"Flattened: {flat}")
