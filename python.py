@@ -1197,3 +1197,11 @@ def my_awesome_function():
     print(f"Executing: {inspect.stack()[0].function}")
 
 my_awesome_function()
+
+
+ques 4
+from operator import itemgetter
+users = [("Alice", 25), ("Bob", 19), ("Charlie", 30)]
+# Sort by age (index 1) - faster than lambda for large datasets
+users.sort(key=itemgetter(1))
+print(f"Sorted by age: {users}")
