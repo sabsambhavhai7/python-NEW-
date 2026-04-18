@@ -1238,3 +1238,8 @@ ques 9
 raw_str = "Line 1\nLine 2\tTabbed"
 print(f"Normal: {raw_str}")
 print(f"Debug: {repr(raw_str)}")
+
+ques 10 
+card_num = "1234567812345678"
+masked = "*" * 12 + card_num[-4:]
+print(f"Card: {masked}")
