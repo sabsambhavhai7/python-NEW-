@@ -1232,3 +1232,9 @@ t1 = datetime.now()
 t2 = datetime(2026, 12, 31, 23, 59)
 duration = t2 - t1
 print(f"Seconds until New Year: {int(duration.total_seconds())}")
+
+ques 9
+# repr() shows the "official" string representation, including hidden chars
+raw_str = "Line 1\nLine 2\tTabbed"
+print(f"Normal: {raw_str}")
+print(f"Debug: {repr(raw_str)}")
