@@ -1190,3 +1190,10 @@ import fnmatch
 files = ["data1.txt", "data2.jpg", "config.ini", "data3.txt"]
 txt_files = fnmatch.filter(files, "data*.txt")
 print(f"Filtered files: {txt_files}")
+
+ques 3
+import inspect
+def my_awesome_function():
+    print(f"Executing: {inspect.stack()[0].function}")
+
+my_awesome_function()
