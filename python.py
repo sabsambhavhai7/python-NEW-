@@ -1173,3 +1173,14 @@ print(f"Parsed command: {parsed}")
 ques 10 
 import os
 print(f"Running on Process ID: {os.getpid()}")
+
+
+_________________________________________________________________________________________________________________________________________________
+
+date 18 april 2026 
+
+ques 1
+import itertools
+nums = [1, 2, 3, 4, 5]
+cum_sum = list(itertools.accumulate(nums))
+print(f"Cumulative Sum: {cum_sum}") # [1, 3, 6, 10, 15]
