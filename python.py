@@ -1224,3 +1224,11 @@ from itertools import chain
 nested = [[1, 2], [3, 4], [5]]
 flat = list(chain.from_iterable(nested))
 print(f"Flattened: {flat}")
+
+
+ques 8 
+from datetime import datetime
+t1 = datetime.now()
+t2 = datetime(2026, 12, 31, 23, 59)
+duration = t2 - t1
+print(f"Seconds until New Year: {int(duration.total_seconds())}")
