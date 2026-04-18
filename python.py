@@ -1212,3 +1212,8 @@ import re
 text = "Hello, world! Welcome to Python."
 words = re.findall(r'\w+', text)
 print(f"Words: {words}")
+
+ques 6
+scores = {"Alice": 85, "Bob": 40, "Charlie": 92}
+passed = {name: score for name, score in scores.items() if score >= 50}
+print(f"Passed: {passed}")
