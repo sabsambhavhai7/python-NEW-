@@ -1205,3 +1205,10 @@ users = [("Alice", 25), ("Bob", 19), ("Charlie", 30)]
 # Sort by age (index 1) - faster than lambda for large datasets
 users.sort(key=itemgetter(1))
 print(f"Sorted by age: {users}")
+
+
+ques 5
+import re
+text = "Hello, world! Welcome to Python."
+words = re.findall(r'\w+', text)
+print(f"Words: {words}")
