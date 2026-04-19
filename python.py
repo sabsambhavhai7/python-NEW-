@@ -1263,3 +1263,9 @@ seconds = 3665
 minutes, sec = divmod(seconds, 60)
 hours, minutes = divmod(minutes, 60)
 print(f"Time: {hours}h {minutes}m {sec}s")
+
+
+ques 3
+import string
+alphabet = list(string.ascii_lowercase)
+print(f"First 5 letters: {alphabet[:5]}")
