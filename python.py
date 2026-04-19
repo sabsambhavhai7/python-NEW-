@@ -1307,3 +1307,8 @@ import itertools
 # Get the first 3 items from a range without creating a full list
 for i in itertools.islice(range(1000000), 3):
     print(f"Processing item: {i}")
+
+ques 9 
+val = "True"
+bool_val = val == "True"
+print(f"Boolean Type: {type(bool_val)} - Value: {bool_val}")
