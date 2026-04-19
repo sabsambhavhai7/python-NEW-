@@ -1301,3 +1301,9 @@ text = "hello"
 # Check if the object has a 'upper' method
 if hasattr(text, 'upper'):
     print(text.upper())
+
+ques 8
+import itertools
+# Get the first 3 items from a range without creating a full list
+for i in itertools.islice(range(1000000), 3):
+    print(f"Processing item: {i}")
