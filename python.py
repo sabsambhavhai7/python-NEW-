@@ -1312,3 +1312,9 @@ ques 9
 val = "True"
 bool_val = val == "True"
 print(f"Boolean Type: {type(bool_val)} - Value: {bool_val}")
+
+ques 10
+text = "Python Programming"
+vowels = "aeiou"
+count = sum(1 for char in text.lower() if char in vowels)
+print(f"Total Vowels: {count}")
