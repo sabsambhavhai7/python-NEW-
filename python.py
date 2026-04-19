@@ -1257,3 +1257,9 @@ class MySystem:
 
 obj = MySystem()
 print(f"Class Name: {obj.identify()}")
+
+ques 2
+seconds = 3665
+minutes, sec = divmod(seconds, 60)
+hours, minutes = divmod(minutes, 60)
+print(f"Time: {hours}h {minutes}m {sec}s")
