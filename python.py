@@ -1276,3 +1276,10 @@ ques 3
 import string
 alphabet = list(string.ascii_lowercase)
 print(f"First 5 letters: {alphabet[:5]}")
+
+
+ques 4
+import random
+deck = ["Ace", "King", "Queen", "Jack"]
+random.shuffle(deck)
+print(f"Shuffled: {deck}")
