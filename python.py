@@ -1289,3 +1289,9 @@ import random
 deck = ["Ace", "King", "Queen", "Jack"]
 random.shuffle(deck)
 print(f"Shuffled: {deck}")
+
+ques 6
+text = "hello"
+# Check if the object has a 'upper' method
+if hasattr(text, 'upper'):
+    print(text.upper())
