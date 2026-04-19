@@ -1243,3 +1243,17 @@ ques 10
 card_num = "1234567812345678"
 masked = "*" * 12 + card_num[-4:]
 print(f"Card: {masked}")
+
+
+_________________________________________________________________________________________________________________________________________________
+
+
+19 april 2026 
+
+ques 1
+class MySystem:
+    def identify(self):
+        return self.__class__.__name__
+
+obj = MySystem()
+print(f"Class Name: {obj.identify()}")
