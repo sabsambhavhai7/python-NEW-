@@ -1295,3 +1295,9 @@ text = "hello"
 # Check if the object has a 'upper' method
 if hasattr(text, 'upper'):
     print(text.upper())
+
+ques 7
+text = "hello"
+# Check if the object has a 'upper' method
+if hasattr(text, 'upper'):
+    print(text.upper())
