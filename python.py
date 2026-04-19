@@ -1283,3 +1283,9 @@ import random
 deck = ["Ace", "King", "Queen", "Jack"]
 random.shuffle(deck)
 print(f"Shuffled: {deck}")
+
+ques 5
+import random
+deck = ["Ace", "King", "Queen", "Jack"]
+random.shuffle(deck)
+print(f"Shuffled: {deck}")
