@@ -1196,6 +1196,13 @@ import inspect
 def my_awesome_function():
     print(f"Executing: {inspect.stack()[0].function}")
 
+ques 4
+import os
+folder = "logs_directory"
+if not os.path.exists(folder):
+    os.makedirs(folder)
+    print(f"Created {folder}")
+
 my_awesome_function()
 
 
