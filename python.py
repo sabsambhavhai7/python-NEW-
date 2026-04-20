@@ -1377,3 +1377,8 @@ print(f"Updated items: {items}")
 ques 8
 import time
 print(f"Current local time: {time.ctime()}")
+
+ques 9
+matrix = [[1, 2], [3, 4], [5, 6]]
+transposed = [list(i) for i in zip(*matrix)]
+print(f"Transposed Matrix: {transposed}")
