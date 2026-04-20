@@ -1330,3 +1330,10 @@ from collections import Counter
 text = "success"
 most_common = Counter(text).most_common(1)[0]
 print(f"Most frequent char: '{most_common[0]}' ({most_common[1]} times)")
+
+ques 2
+# Adds elements of two lists together index by index
+list1 = [1, 2, 3]
+list2 = [10, 20, 30]
+result = list(map(lambda x, y: x + y, list1, list2))
+print(f"Summed lists: {result}")
