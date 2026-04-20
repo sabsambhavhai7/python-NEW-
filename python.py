@@ -1361,3 +1361,9 @@ ques 5
 # range(start, stop, step)
 evens = list(range(0, 21, 2))
 print(f"Evens to 20: {evens}")
+
+ques 6
+items = ["apple", "banana", "cherry", "banana"]
+if "banana" in items:
+    items.remove("banana") # Removes only the first occurrence
+print(f"Updated items: {items}")
