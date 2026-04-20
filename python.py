@@ -1337,3 +1337,13 @@ list1 = [1, 2, 3]
 list2 = [10, 20, 30]
 result = list(map(lambda x, y: x + y, list1, list2))
 print(f"Summed lists: {result}")
+
+ques 3
+def is_float(value):
+    try:
+        float(value)
+        return True
+    except ValueError:
+        return False
+
+print(f"Is '12.5' a float? {is_float('12.5')}")
