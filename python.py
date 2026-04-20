@@ -1356,3 +1356,8 @@ c = Config()
 # If 'host' doesn't exist, it returns 'localhost' instead of an error
 host = getattr(c, 'host', 'localhost')
 print(f"Connecting to: {host}")
+
+ques 5
+# range(start, stop, step)
+evens = list(range(0, 21, 2))
+print(f"Evens to 20: {evens}")
