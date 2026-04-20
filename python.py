@@ -1382,3 +1382,8 @@ ques 9
 matrix = [[1, 2], [3, 4], [5, 6]]
 transposed = [list(i) for i in zip(*matrix)]
 print(f"Transposed Matrix: {transposed}")
+
+ques 10
+data = [10, 10, 10, 10]
+all_same = len(set(data)) == 1
+print(f"Are all elements identical? {all_same}")
