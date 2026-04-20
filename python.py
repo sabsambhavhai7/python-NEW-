@@ -1347,3 +1347,12 @@ def is_float(value):
         return False
 
 print(f"Is '12.5' a float? {is_float('12.5')}")
+
+ques 4
+class Config:
+    port = 8080
+
+c = Config()
+# If 'host' doesn't exist, it returns 'localhost' instead of an error
+host = getattr(c, 'host', 'localhost')
+print(f"Connecting to: {host}")
