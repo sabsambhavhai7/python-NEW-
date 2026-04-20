@@ -1318,3 +1318,15 @@ text = "Python Programming"
 vowels = "aeiou"
 count = sum(1 for char in text.lower() if char in vowels)
 print(f"Total Vowels: {count}")
+
+
+_________________________________________________________________________________________________________________________________________________
+
+
+20 th april 2026
+
+ques 1
+from collections import Counter
+text = "success"
+most_common = Counter(text).most_common(1)[0]
+print(f"Most frequent char: '{most_common[0]}' ({most_common[1]} times)")
