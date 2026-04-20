@@ -1367,3 +1367,9 @@ items = ["apple", "banana", "cherry", "banana"]
 if "banana" in items:
     items.remove("banana") # Removes only the first occurrence
 print(f"Updated items: {items}")
+
+ques 7
+items = ["apple", "banana", "cherry", "banana"]
+if "banana" in items:
+    items.remove("banana") # Removes only the first occurrence
+print(f"Updated items: {items}")
