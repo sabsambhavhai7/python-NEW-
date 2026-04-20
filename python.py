@@ -1373,3 +1373,7 @@ items = ["apple", "banana", "cherry", "banana"]
 if "banana" in items:
     items.remove("banana") # Removes only the first occurrence
 print(f"Updated items: {items}")
+
+ques 8
+import time
+print(f"Current local time: {time.ctime()}")
