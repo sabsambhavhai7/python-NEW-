@@ -1438,3 +1438,8 @@ ques 5
 votes = {"Red": 10, "Blue": 15, "Green": 8}
 winner = max(votes, key=votes.get)
 print(f"Winner: {winner}")
+
+ques 6
+miles = 10
+km = miles * 1.60934
+print(f"{miles} miles is {km:.2f} kilometers")
