@@ -1393,7 +1393,7 @@ ________________________________________________________________________________
 
 date - 21 april 2026 
 
-ques 1 
+
 
 ques 2
 
@@ -1403,4 +1403,17 @@ ques 4
 
 ques 5
 
+_________________________________________________________________________________________________________________________________________________
 
+date 24 april 2026 
+
+ques 1 
+def deep_flatten(lst):
+    for item in lst:
+        if isinstance(item, list):
+            yield from deep_flatten(item)
+        else:
+            yield item
+
+nested = [1, [2, [3, 4], 5], 6]
+print(list(deep_flatten(nested))) # [1, 2, 3, 4, 5, 6]
