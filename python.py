@@ -1424,3 +1424,7 @@ queue = deque(["Task 1", "Task 2"])
 queue.append("Task 3") # Add to right
 queue.popleft()        # Remove from left (faster than list.pop(0))
 print(f"Remaining: {list(queue)}")
+
+ques 3
+text = "python is amazing"
+print(text.title()) # Python Is Amazing
