@@ -1433,3 +1433,8 @@ ques 4
 filename = "data_analysis.v2.csv"
 extension = filename.rsplit('.', 1)[-1]
 print(f"Extension: {extension}")
+
+ques 5
+votes = {"Red": 10, "Blue": 15, "Green": 8}
+winner = max(votes, key=votes.get)
+print(f"Winner: {winner}")
