@@ -1453,3 +1453,9 @@ dict_a = {'x': 1, 'y': 2, 'z': 3}
 dict_b = {'w': 5, 'x': 10, 'y': 20}
 common_keys = dict_a.keys() & dict_b.keys()
 print(f"Keys in both: {common_keys}")
+
+ques 9 
+import itertools
+# Creates an iterator that returns 'Hello' 3 times
+for greeting in itertools.repeat("Hello", 3):
+    print(greeting)
