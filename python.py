@@ -1417,3 +1417,10 @@ def deep_flatten(lst):
 
 nested = [1, [2, [3, 4], 5], 6]
 print(list(deep_flatten(nested))) # [1, 2, 3, 4, 5, 6]
+
+ques 2
+from collections import deque
+queue = deque(["Task 1", "Task 2"])
+queue.append("Task 3") # Add to right
+queue.popleft()        # Remove from left (faster than list.pop(0))
+print(f"Remaining: {list(queue)}")
