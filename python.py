@@ -1447,3 +1447,9 @@ print(f"{miles} miles is {km:.2f} kilometers")
 ques 7
 shout = "HELLO WORLD"
 print(f"Is uppercase? {shout.isupper()}")
+
+ques 8 
+dict_a = {'x': 1, 'y': 2, 'z': 3}
+dict_b = {'w': 5, 'x': 10, 'y': 20}
+common_keys = dict_a.keys() & dict_b.keys()
+print(f"Keys in both: {common_keys}")
