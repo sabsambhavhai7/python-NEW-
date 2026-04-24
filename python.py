@@ -1428,3 +1428,8 @@ print(f"Remaining: {list(queue)}")
 ques 3
 text = "python is amazing"
 print(text.title()) # Python Is Amazing
+
+ques 4
+filename = "data_analysis.v2.csv"
+extension = filename.rsplit('.', 1)[-1]
+print(f"Extension: {extension}")
