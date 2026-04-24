@@ -1459,3 +1459,8 @@ import itertools
 # Creates an iterator that returns 'Hello' 3 times
 for greeting in itertools.repeat("Hello", 3):
     print(greeting)
+
+ques 10
+# Returns True if any item is truthy (not 0, None, False, or empty)
+data = [0, None, "", 42]
+print(f"Does it have real data? {any(data)}") # True because of 42
