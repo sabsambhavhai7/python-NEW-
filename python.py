@@ -1443,3 +1443,7 @@ ques 6
 miles = 10
 km = miles * 1.60934
 print(f"{miles} miles is {km:.2f} kilometers")
+
+ques 7
+shout = "HELLO WORLD"
+print(f"Is uppercase? {shout.isupper()}")
