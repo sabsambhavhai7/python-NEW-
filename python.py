@@ -1567,3 +1567,14 @@ def dynamic_func(*args, **kwargs):
         print(f"Keyword: {key} = {value}")
 
 dynamic_func(1, 2, 3, name="Gemini", version="3.0")
+
+ques 9 
+import datetime
+
+name = "Alice"
+score = 0.8567
+today = datetime.datetime.now()
+
+print(f"User: {name.upper()}")
+print(f"Score: {score:.2%}") # Formats as 85.67%
+print(f"Date: {today:%Y-%m-%d}")
