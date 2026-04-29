@@ -1518,3 +1518,9 @@ def managed_resource(name):
 with managed_resource("DataStream") as r:
     print(f"Using {r}")
 
+ques 4 
+users = [("Alice", 25), ("Bob", 17), ("Charlie", 30)]
+
+# Create a dict of adults only
+adult_map = {name: age for name, age in users if age >= 18}
+print(adult_map) # {'Alice': 25, 'Charlie': 30}
