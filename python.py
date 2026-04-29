@@ -1505,3 +1505,16 @@ def fib_gen(limit):
 # Usage
 for num in fib_gen(100):
     print(num, end=" ")
+
+ques 3 
+from contextlib import contextmanager
+
+@contextmanager
+def managed_resource(name):
+    print(f"Initializing {name}...")
+    yield f"Resource: {name}"
+    print(f"Cleaning up {name}...")
+
+with managed_resource("DataStream") as r:
+    print(f"Using {r}")
+
