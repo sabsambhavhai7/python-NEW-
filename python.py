@@ -1585,3 +1585,40 @@ tasks = ["Coding", "Design", "Testing"]
 
 for index, (name, task) in enumerate(zip(names, tasks), start=1):
     print(f"{index}. {name} is busy with {task}")
+
+ques 11
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    """
+    This is an Abstract Base Class. 
+    You cannot create an instance of 'Shape' directly.
+    """
+    
+    @abstractmethod
+    def area(self):
+        pass
+
+    @abstractmethod
+    def perimeter(self):
+        pass
+
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
+
+    # If we forgot to define 'area' or 'perimeter' here, 
+    # Python would throw a TypeError when we try to instantiate Square.
+    def area(self):
+        return self.side ** 2
+
+    def perimeter(self):
+        return 4 * self.side
+
+# Usage
+sq = Square(5)
+print(f"Area: {sq.area()}")
+print(f"Perimeter: {sq.perimeter()}")
+
+# This would fail:
+# s = Shape() # TypeError: Can't instantiate abstract class Shape with abstract methods
