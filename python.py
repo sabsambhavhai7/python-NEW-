@@ -1524,3 +1524,10 @@ users = [("Alice", 25), ("Bob", 17), ("Charlie", 30)]
 # Create a dict of adults only
 adult_map = {name: age for name, age in users if age >= 18}
 print(adult_map) # {'Alice': 25, 'Charlie': 30}
+
+ques 5
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Square even numbers only
+even_squares = list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, numbers)))
+print(even_squares) # [4, 16, 36]
