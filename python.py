@@ -1558,3 +1558,12 @@ class Employee:
     @staticmethod
     def is_workday(day):
         return day.weekday() < 5 # Monday=0, Sunday=6
+
+ques 8 
+def dynamic_func(*args, **kwargs):
+    for arg in args:
+        print(f"Positional: {arg}")
+    for key, value in kwargs.items():
+        print(f"Keyword: {key} = {value}")
+
+dynamic_func(1, 2, 3, name="Gemini", version="3.0")
