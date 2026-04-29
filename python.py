@@ -1578,3 +1578,10 @@ today = datetime.datetime.now()
 print(f"User: {name.upper()}")
 print(f"Score: {score:.2%}") # Formats as 85.67%
 print(f"Date: {today:%Y-%m-%d}")
+
+ques 10 
+names = ["Alice", "Bob", "Charlie"]
+tasks = ["Coding", "Design", "Testing"]
+
+for index, (name, task) in enumerate(zip(names, tasks), start=1):
+    print(f"{index}. {name} is busy with {task}")
