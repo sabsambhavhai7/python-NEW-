@@ -1542,3 +1542,19 @@ for category, item in data:
     groups[category].append(item)
 
 print(dict(groups)) # {'tech': ['Python', 'Rust'], 'art': ['Sketching']}
+
+
+ques 7 
+class Employee:
+    raise_amt = 1.05
+    
+    def __init__(self, pay):
+        self.pay = pay
+
+    @classmethod
+    def set_raise_amt(cls, amount):
+        cls.raise_amt = amount
+
+    @staticmethod
+    def is_workday(day):
+        return day.weekday() < 5 # Monday=0, Sunday=6
