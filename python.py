@@ -1531,3 +1531,14 @@ numbers = [1, 2, 3, 4, 5, 6]
 # Square even numbers only
 even_squares = list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, numbers)))
 print(even_squares) # [4, 16, 36]
+
+ques 6
+from collections import defaultdict
+
+groups = defaultdict(list)
+data = [('tech', 'Python'), ('tech', 'Rust'), ('art', 'Sketching')]
+
+for category, item in data:
+    groups[category].append(item)
+
+print(dict(groups)) # {'tech': ['Python', 'Rust'], 'art': ['Sketching']}
