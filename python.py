@@ -1493,3 +1493,15 @@ def add(a, b):
     return a + b
 
 add(5, 10)
+
+ques 2 
+# A generator function for Fibonacci sequence
+def fib_gen(limit):
+    a, b = 0, 1
+    while a < limit:
+        yield a
+        a, b = b, a + b
+
+# Usage
+for num in fib_gen(100):
+    print(num, end=" ")
