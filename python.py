@@ -1622,3 +1622,11 @@ print(f"Perimeter: {sq.perimeter()}")
 
 # This would fail:
 # s = Shape() # TypeError: Can't instantiate abstract class Shape with abstract methods
+
+
+_________________________________________________________________________________________________________________________________________________
+
+date 30 april 2026
+
+ques 1
+
