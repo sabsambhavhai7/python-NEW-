@@ -1641,3 +1641,18 @@ class FastCompression(PluginRegistry, plugin_name="gzip"):
 
 print(PluginRegistry.plugins) # Child was registered automatically
 
+ques 2
+import asyncio
+
+async def worker(event):
+    print("Worker waiting for signal...")
+    await event.wait()
+    print("Signal received! Worker starting...")
+
+async def main():
+    event = asyncio.Event()
+    asyncio.create_task(worker(event))
+    await asyncio.sleep(2)
+    event.set() # Triggers all waiting workers
+
+asyncio.run(main())
