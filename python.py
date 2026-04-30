@@ -1656,3 +1656,6 @@ async def main():
     event.set() # Triggers all waiting workers
 
 asyncio.run(main())
+
+
+ques 3
