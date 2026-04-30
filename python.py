@@ -1629,4 +1629,15 @@ ________________________________________________________________________________
 date 30 april 2026
 
 ques 1
+class PluginRegistry:
+    plugins = {}
+
+    def __init_subclass__(cls, plugin_name, **kwargs):
+        super().__init_subclass__(**kwargs)
+        cls.plugins[plugin_name] = cls
+
+class FastCompression(PluginRegistry, plugin_name="gzip"):
+    pass
+
+print(PluginRegistry.plugins) # Child was registered automatically
 
