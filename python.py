@@ -1659,6 +1659,13 @@ asyncio.run(main())
 
 
 ques 3
+import dis
+
+def add_numbers(a, b):
+    return a + b
+
+dis.dis(add_numbers)
+# Output shows LOAD_FAST, BINARY_ADD, and RETURN_VALUE instructions
 ques 4
 ques
 5
