@@ -1684,8 +1684,8 @@ class Transaction:
 tx = Transaction(100, "EUR", 1.1)
 print(tx.total_usd)
 
-ques
-5
+ques 5
+
 ques
 
 6
