@@ -1716,3 +1716,14 @@ class Transaction:
 
 tx = Transaction(100, "EUR", 1.1)
 print(tx.total_usd)
+
+ques 7
+from functools import partial
+
+def send_email(smtp_server, port, recipient, message):
+    print(f"Sending to {recipient} via {smtp_server}...")
+
+# Create a specialized function for Gmail
+send_gmail = partial(send_email, "smtp.gmail.com", 587)
+
+send_gmail(recipient="boss@work.com", message="I'm done!")
