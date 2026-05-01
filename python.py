@@ -1747,3 +1747,16 @@ class D(B, C): pass
 
 print(D.mro())
 # Shows the exact path Python takes to find a method: D -> B -> C -> A
+
+ques 10 
+import operator
+
+class Query:
+    def __init__(self, value=0):
+        self.value = value
+    def __gt__(self, other):
+        return f"WHERE value > {other}"
+
+# This allows you to write:
+q = Query()
+print(q > 10) # Returns a string formatted for SQL
