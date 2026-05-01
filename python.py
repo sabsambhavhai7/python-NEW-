@@ -1737,3 +1737,13 @@ class UppercaseString(str):
 
 s = UppercaseString("hello")
 print(s) # "HELLO"
+
+
+ques 9 
+class A: pass
+class B(A): pass
+class C(A): pass
+class D(B, C): pass
+
+print(D.mro())
+# Shows the exact path Python takes to find a method: D -> B -> C -> A
