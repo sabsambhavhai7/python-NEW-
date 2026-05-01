@@ -1727,3 +1727,13 @@ def send_email(smtp_server, port, recipient, message):
 send_gmail = partial(send_email, "smtp.gmail.com", 587)
 
 send_gmail(recipient="boss@work.com", message="I'm done!")
+
+
+ques 8 
+class UppercaseString(str):
+    def __new__(cls, value):
+        # We must intercept creation because strings are immutable
+        return super().__new__(cls, value.upper())
+
+s = UppercaseString("hello")
+print(s) # "HELLO"
