@@ -1685,6 +1685,21 @@ tx = Transaction(100, "EUR", 1.1)
 print(tx.total_usd)
 
 ques 5
+from dataclasses import dataclass, field
+
+@dataclass
+class Transaction:
+    amount: float
+    currency: str
+    conversion_rate: float = field(repr=False)
+    total_usd: float = field(init=False)
+
+    def __post_init__(self):
+        self.total_usd = self.amount * self.conversion_rate
+
+tx = Transaction(100, "EUR", 1.1)
+print(tx.total_usd)
+
 
 ques
 
