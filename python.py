@@ -1759,4 +1759,5 @@ class Query:
 
 # This allows you to write:
 q = Query()
-print(q > 10) # Returns a string formatted for SQL
+print(q > 10) # Returns a string formatted for SQ
+L
