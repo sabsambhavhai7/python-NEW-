@@ -1828,3 +1828,12 @@ from pathlib import Path
 path = Path("my_folder/sub_folder")
 path.mkdir(parents=True, exist_ok=True) # Create folder if it doesn't exist
 print(f"Extension: {Path('test.py').suffix}")
+
+ques 9 
+import random
+
+players = ["Alice", "Bob", "Charlie", "David"]
+winner = random.choice(players)
+lucky_three = random.sample(players, 3)
+
+print(f"The winner is: {winner}")
