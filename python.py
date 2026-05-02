@@ -1804,3 +1804,10 @@ with open('data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Name", "Score"])
     writer.writerow(["Alice", 95])
+
+ques 6
+banned_words = ["spam", "ad", "buy"]
+comment = "This is not a spam message"
+
+if any(word in comment for word in banned_words):
+    print("Comment blocked!")
