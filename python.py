@@ -1811,3 +1811,13 @@ comment = "This is not a spam message"
 
 if any(word in comment for word in banned_words):
     print("Comment blocked!")
+
+ques 7
+from collections import defaultdict
+
+counts = defaultdict(int)
+words = ["apple", "apple", "banana"]
+
+for word in words:
+    counts[word] += 1  # No KeyError! Starts at 0 automatically.
+print(counts)
