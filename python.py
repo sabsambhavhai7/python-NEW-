@@ -1771,3 +1771,8 @@ numbers = [1, 5, 8, 10, 15, 20]
 # Keep only numbers greater than 10
 filtered = list(filter(lambda x: x > 10, numbers))
 print(filtered)
+
+ques 2
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(f"Index {index}: {fruit}")
