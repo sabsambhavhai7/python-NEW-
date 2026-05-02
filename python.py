@@ -1821,3 +1821,10 @@ words = ["apple", "apple", "banana"]
 for word in words:
     counts[word] += 1  # No KeyError! Starts at 0 automatically.
 print(counts)
+
+ques 8 
+from pathlib import Path
+
+path = Path("my_folder/sub_folder")
+path.mkdir(parents=True, exist_ok=True) # Create folder if it doesn't exist
+print(f"Extension: {Path('test.py').suffix}")
