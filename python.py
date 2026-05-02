@@ -1795,3 +1795,12 @@ students = [
 # Sort by grade (lowest to highest)
 students.sort(key=lambda x: x["grade"])
 print(students)
+
+ques 5
+import csv
+
+# Writing to a CSV
+with open('data.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["Name", "Score"])
+    writer.writerow(["Alice", 95])
