@@ -1837,3 +1837,10 @@ winner = random.choice(players)
 lucky_three = random.sample(players, 3)
 
 print(f"The winner is: {winner}")
+
+ques 10 
+from datetime import datetime
+
+now = datetime.now()
+readable = now.strftime("%B %d, %Y - %H:%M")
+print(readable) # e.g., "May 02, 2026 - 23:25"
