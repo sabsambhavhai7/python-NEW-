@@ -1760,4 +1760,14 @@ class Query:
 # This allows you to write:
 q = Query()
 print(q > 10) # Returns a string formatted for SQ
-L
+
+
+_________________________________________________________________________________________________________________________________________________
+
+Date 2 may 2026 
+
+ques 1
+numbers = [1, 5, 8, 10, 15, 20]
+# Keep only numbers greater than 10
+filtered = list(filter(lambda x: x > 10, numbers))
+print(filtered)
