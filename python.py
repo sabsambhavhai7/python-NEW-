@@ -1783,3 +1783,15 @@ user_stats = {"age": 26, "score": 100}
 
 merged = user_basics | user_stats
 print(merged) # {'name': 'Alex', 'age': 26, 'score': 100}
+
+
+ques 4 
+students = [
+    {"name": "Zoe", "grade": 88},
+    {"name": "Ben", "grade": 95},
+    {"name": "Charlie", "grade": 90}
+]
+
+# Sort by grade (lowest to highest)
+students.sort(key=lambda x: x["grade"])
+print(students)
