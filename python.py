@@ -1776,3 +1776,10 @@ ques 2
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print(f"Index {index}: {fruit}")
+
+ques 3
+user_basics = {"name": "Alex", "age": 25}
+user_stats = {"age": 26, "score": 100}
+
+merged = user_basics | user_stats
+print(merged) # {'name': 'Alex', 'age': 26, 'score': 100}
