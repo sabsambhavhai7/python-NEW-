@@ -1866,3 +1866,10 @@ finally:
     print("Cleaning up resources...")
     # This runs even if the file wasn't found
 
+ques 3
+nums = [0, 1, 2, 3, 4, 5, 6]
+
+print(nums[::-1])    # Reverse the list
+print(nums[-3:])     # Get the last 3 items
+print(nums[::2])     # Get every second item (even indices)
+
