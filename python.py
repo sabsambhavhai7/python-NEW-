@@ -1893,3 +1893,11 @@ votes = ["Red", "Blue", "Red", "Green", "Red", "Blue"]
 tally = Counter(votes)
 
 print(tally.most_common(1)) # [('Red', 3)]
+
+ques 7 
+from collections import Counter
+
+votes = ["Red", "Blue", "Red", "Green", "Red", "Blue"]
+tally = Counter(votes)
+
+print(tally.most_common(1)) # [('Red', 3)]
