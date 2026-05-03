@@ -1873,3 +1873,10 @@ print(nums[::-1])    # Reverse the list
 print(nums[-3:])     # Get the last 3 items
 print(nums[::2])     # Get every second item (even indices)
 
+ques 4
+import json
+
+json_data = '{"name": "Laptop", "price": 999, "in_stock": true}'
+product = json.loads(json_data)
+
+print(product["name"]) # Access like a normal dictionary
