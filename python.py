@@ -1885,3 +1885,11 @@ ques 5
 # Sum of squares from 1 to 1,000,000 without filling up your RAM
 total = sum(x**2 for x in range(1000001))
 print(total)
+
+ques 6
+from collections import Counter
+
+votes = ["Red", "Blue", "Red", "Green", "Red", "Blue"]
+tally = Counter(votes)
+
+print(tally.most_common(1)) # [('Red', 3)]
