@@ -1856,3 +1856,13 @@ ids = [101, 102, 103]
 for user, user_id in zip(users, ids):
     print(f"User: {user}, ID: {user_id}")
 
+ques 2
+try:
+    file = open("data.txt", "r")
+    # Do work
+except FileNotFoundError:
+    print("File missing!")
+finally:
+    print("Cleaning up resources...")
+    # This runs even if the file wasn't found
+
