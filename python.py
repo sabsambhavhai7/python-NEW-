@@ -1914,3 +1914,8 @@ import os
 
 print(f"Operating System: {os.name}")
 print(f"Current User: {os.getlogin()}")
+
+import os
+
+print(f"Operating System: {os.name}")
+print(f"Current User: {os.getlogin()}")
