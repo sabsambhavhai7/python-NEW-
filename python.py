@@ -1908,3 +1908,9 @@ passwords = ["12345", "password", "admin123"]
 # Check if all passwords are longer than 4 characters
 is_valid = all(len(p) > 4 for p in passwords)
 print(is_valid) # True
+
+ques 9 
+import os
+
+print(f"Operating System: {os.name}")
+print(f"Current User: {os.getlogin()}")
