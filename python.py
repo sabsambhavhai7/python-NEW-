@@ -1880,3 +1880,8 @@ json_data = '{"name": "Laptop", "price": 999, "in_stock": true}'
 product = json.loads(json_data)
 
 print(product["name"]) # Access like a normal dictionary
+
+ques 5
+# Sum of squares from 1 to 1,000,000 without filling up your RAM
+total = sum(x**2 for x in range(1000001))
+print(total)
