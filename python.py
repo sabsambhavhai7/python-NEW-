@@ -1849,4 +1849,10 @@ ________________________________________________________________________________
 
 date 3 may 2026 
 
+ques 1
+users = ["Alice", "Bob", "Charlie"]
+ids = [101, 102, 103]
+
+for user, user_id in zip(users, ids):
+    print(f"User: {user}, ID: {user_id}")
 
