@@ -1919,3 +1919,16 @@ import os
 
 print(f"Operating System: {os.name}")
 print(f"Current User: {os.getlogin()}")
+
+
+ques 10 
+def calculate_tax(price, rate=0.08):
+    """
+    Calculates the total tax for a given price.
+    :param price: The base cost (float)
+    :param rate: The tax rate (default 8%)
+    :return: The calculated tax amount
+    """
+    return price * rate
+
+print(calculate_tax.__doc__)
