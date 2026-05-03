@@ -1901,3 +1901,10 @@ votes = ["Red", "Blue", "Red", "Green", "Red", "Blue"]
 tally = Counter(votes)
 
 print(tally.most_common(1)) # [('Red', 3)]
+
+ques 8 
+passwords = ["12345", "password", "admin123"]
+
+# Check if all passwords are longer than 4 characters
+is_valid = all(len(p) > 4 for p in passwords)
+print(is_valid) # True
