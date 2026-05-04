@@ -1944,3 +1944,12 @@ scores = [100, 85, 92]
 print("NAME".ljust(10) + "SCORE".rjust(5))
 for name, score in zip(names, scores):
     print(name.ljust(10) + str(score).rjust(5))
+
+ques 2
+old_cart = ["apple", "banana", "orange"]
+new_cart = ["apple", "orange", "grape"]
+
+added = set(new_cart) - set(old_cart)
+removed = set(old_cart) - set(new_cart)
+
+print(f"Added: {added}, Removed: {removed}")
