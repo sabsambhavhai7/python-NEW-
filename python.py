@@ -2000,3 +2000,8 @@ folder = "downloads"
 file = "report.pdf"
 full_path = os.path.join(folder, file)
 print(full_path) # Result varies by OS
+
+ques 9 
+# Count down from 10 to 1
+for i in range(10, 0, -1):
+    print(i, end=" ")
