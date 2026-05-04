@@ -1992,3 +1992,11 @@ class Player:
 
 p = Player("Hero", 10)
 print(vars(p)) # {'name': 'Hero', 'level': 10}
+
+ques 8 
+import os
+
+folder = "downloads"
+file = "report.pdf"
+full_path = os.path.join(folder, file)
+print(full_path) # Result varies by OS
