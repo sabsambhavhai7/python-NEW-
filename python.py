@@ -1983,3 +1983,12 @@ ques 6
 nested_list = [[1, 2], [3, 4], [5, 6]]
 flat_list = [item for sublist in nested_list for item in sublist]
 print(flat_list) # [1, 2, 3, 4, 5, 6]
+
+ques 7 
+class Player:
+    def __init__(self, name, level):
+        self.name = name
+        self.level = level
+
+p = Player("Hero", 10)
+print(vars(p)) # {'name': 'Hero', 'level': 10}
