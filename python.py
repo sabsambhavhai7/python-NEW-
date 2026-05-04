@@ -1953,3 +1953,8 @@ added = set(new_cart) - set(old_cart)
 removed = set(old_cart) - set(new_cart)
 
 print(f"Added: {added}, Removed: {removed}")
+
+ques 3
+tags = ["python", "coding", "tutorial"]
+hashtag_string = " #".join(tags)
+print(f"#{hashtag_string}") # #python #coding #tutorial
