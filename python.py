@@ -2005,3 +2005,13 @@ ques 9
 # Count down from 10 to 1
 for i in range(10, 0, -1):
     print(i, end=" ")
+
+ques 10 
+import time
+
+start = time.perf_counter()
+# Simulating a task
+sum(range(1000000))
+end = time.perf_counter()
+
+print(f"Task took {end - start:.6f} seconds")
