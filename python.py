@@ -1978,3 +1978,8 @@ if os.path.exists(file_path):
     print("Loading config...")
 else:
     print("Config file missing, using defaults.")
+
+ques 6 
+nested_list = [[1, 2], [3, 4], [5, 6]]
+flat_list = [item for sublist in nested_list for item in sublist]
+print(flat_list) # [1, 2, 3, 4, 5, 6]
