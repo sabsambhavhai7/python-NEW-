@@ -1958,3 +1958,14 @@ ques 3
 tags = ["python", "coding", "tutorial"]
 hashtag_string = " #".join(tags)
 print(f"#{hashtag_string}") # #python #coding #tutorial
+
+ques 4
+def get_status_message(code):
+    messages = {
+        200: "Success",
+        404: "Not Found",
+        500: "Server Error"
+    }
+    return messages.get(code, "Unknown Status")
+
+print(get_status_message(404))
