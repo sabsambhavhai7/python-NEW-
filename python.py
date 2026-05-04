@@ -1969,3 +1969,12 @@ def get_status_message(code):
     return messages.get(code, "Unknown Status")
 
 print(get_status_message(404))
+
+ques 5 
+import os
+
+file_path = "config.json"
+if os.path.exists(file_path):
+    print("Loading config...")
+else:
+    print("Config file missing, using defaults.")
