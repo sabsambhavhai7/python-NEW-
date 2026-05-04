@@ -1936,3 +1936,11 @@ print(calculate_tax.__doc__)
 _________________________________________________________________________________________________________________________________________________
 
 date - 4 may 2026
+
+ques 1 
+names = ["Alice", "Bob", "Charlie"]
+scores = [100, 85, 92]
+
+print("NAME".ljust(10) + "SCORE".rjust(5))
+for name, score in zip(names, scores):
+    print(name.ljust(10) + str(score).rjust(5))
