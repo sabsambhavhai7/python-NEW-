@@ -2043,3 +2043,8 @@ ques 3
 sentence = "Python is the most popular language for AI."
 if "popular" in sentence:
     print("Found the keyword!")
+
+ques 4
+# Create a dictionary of number: square
+squares = {x: x**2 for x in range(5)}
+print(squares) # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
