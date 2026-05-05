@@ -2056,3 +2056,9 @@ print(round(pi, 2))
 
 # Formatting as a string with fixed decimals
 print(f"Value: {pi:.3f}") # 3.142
+
+ques 6
+numbers = [10, 20, 30]
+# Starts at 100, then adds 10+20+30
+total = sum(numbers, 100)
+print(total) # 160
