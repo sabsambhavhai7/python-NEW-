@@ -2030,3 +2030,11 @@ deep = copy.deepcopy(original)
 original[0][0] = 99
 print(f"Shallow (changed): {shallow[0][0]}")
 print(f"Deep (unchanged): {deep[0][0]}")
+
+
+ques 2
+user_input = "   username_123 \n"
+clean_name = user_input.strip()
+
+print(f"Original: '{user_input}'")
+print(f"Cleaned: '{clean_name}'")
