@@ -2076,3 +2076,7 @@ import itertools
 colors = itertools.cycle(["Red", "Green", "Blue"])
 for i in range(5):
     print(next(colors)) # Red -> Green -> Blue -> Red -> Green
+
+ques 9 
+colors = ["red", "green", "blue", "green"]
+print(colors.index("green")) # 1 (stops at the first match)
