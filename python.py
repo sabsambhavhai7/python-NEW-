@@ -2080,3 +2080,12 @@ for i in range(5):
 ques 9 
 colors = ["red", "green", "blue", "green"]
 print(colors.index("green")) # 1 (stops at the first match)
+
+ques 10 
+import sys
+
+# Run this as: python script.py my_data
+if len(sys.argv) > 1:
+    print(f"File to process: {sys.argv[1]}")
+else:
+    print("No arguments provided.")
