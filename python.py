@@ -2018,3 +2018,15 @@ print(f"Task took {end - start:.6f} seconds")
 
 _________________________________________________________________________________________________________________________________________________
 
+date 5 may 2026 
+
+ques 1
+import copy
+
+original = [[1, 2], [3, 4]]
+shallow = list(original)
+deep = copy.deepcopy(original)
+
+original[0][0] = 99
+print(f"Shallow (changed): {shallow[0][0]}")
+print(f"Deep (unchanged): {deep[0][0]}")
