@@ -2038,3 +2038,8 @@ clean_name = user_input.strip()
 
 print(f"Original: '{user_input}'")
 print(f"Cleaned: '{clean_name}'")
+
+ques 3
+sentence = "Python is the most popular language for AI."
+if "popular" in sentence:
+    print("Found the keyword!")
