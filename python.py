@@ -2048,3 +2048,11 @@ ques 4
 # Create a dictionary of number: square
 squares = {x: x**2 for x in range(5)}
 print(squares) # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+
+ques 5 
+pi = 3.1415926535
+# Rounding to 2 decimal places
+print(round(pi, 2))
+
+# Formatting as a string with fixed decimals
+print(f"Value: {pi:.3f}") # 3.142
