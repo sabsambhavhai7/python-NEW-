@@ -2100,6 +2100,7 @@ import sys
 if len(sys.argv) > 1:
     print(f"File to process: {sys.argv[1]}")
 else:
-    print("No arguments provided.")
+    print("No arguments provided.
+    ")
 
 _________________________________________
