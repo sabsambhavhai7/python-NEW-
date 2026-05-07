@@ -2089,3 +2089,17 @@ if len(sys.argv) > 1:
     print(f"File to process: {sys.argv[1]}")
 else:
     print("No arguments provided.")
+
+_________________________________________________________________________________________________________________________________________________
+
+date - 
+
+import sys
+
+# Run this as: python script.py my_data
+if len(sys.argv) > 1:
+    print(f"File to process: {sys.argv[1]}")
+else:
+    print("No arguments provided.")
+
+_________________________________________
